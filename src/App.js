@@ -12,7 +12,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Linguico logo" />
         <h1>Learn German with Linguico</h1>
-        <p>Available for download on the App Store and Google Play.</p>
+        <p className="App-small-text App-margin-small">
+          Available for download on the App Store and Google Play.
+        </p>
         <div className="app-links">
           <a
             className="App-link"

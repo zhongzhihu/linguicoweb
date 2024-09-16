@@ -3,14 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin; /* Decrease the size of the logo */
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-oscillate infinite 30s ease-in-out;
-  }
 }
 
 .App-header {
@@ -47,6 +41,14 @@
   margin: 0 10px; /* Space between the screenshots */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visual appeal */
+}
+
+.App-small-text {
+  font-size: calc(14px + 1vmin); /* Smaller text size for the smaller text */
+}
+
+.App-margin-small {
+  margin-top: 0px; /* Adjust margin to decrease space between the two sections */
 }
 
 @keyframes App-logo-oscillate {
