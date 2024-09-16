@@ -38,21 +38,10 @@ function App() {
             <img
               src={googlePlayButton}
               alt="Get it on Google Play"
-              className="App-button"
+              className="App-button App-button-play"
             />
           </a>
-          <a
-            className="App-link"
-            href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic&gl=cn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={swissMade}
-              alt="Swiss Made"
-              className="Swiss-made-button"
-            />
-          </a>
+          <img src={swissMade} alt="Swiss Made" className="Swiss-made-button" />
         </div>
         <div className="screenshots">
           <img src={screenshot1} alt="Screenshot 1" className="Screenshot" />
