@@ -20,13 +20,18 @@
 
 .App-link {
   display: inline-block;
-  margin: 10px;
+  margin: 0 10px; /* Horizontal spacing between buttons */
 }
 
 .App-button {
   height: 50px; /* Adjust the size as needed */
   width: auto;
   display: block;
+}
+
+.Swiss-made-button {
+  height: 30px; /* Adjust size as needed */
+  width: auto;
 }
 
 .screenshots {
@@ -41,6 +46,7 @@
   margin: 0 10px; /* Space between the screenshots */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visual appeal */
+  margin-bottom: 20px; /* Add margin to the bottom of the screenshots */
 }
 
 .App-small-text {
@@ -49,16 +55,4 @@
 
 .App-margin-small {
   margin-top: 0px; /* Adjust margin to decrease space between the two sections */
-}
-
-@keyframes App-logo-oscillate {
-  0% {
-    transform: rotate(-20deg);
-  }
-  50% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(-20deg);
-  }
 }

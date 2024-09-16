@@ -1,6 +1,7 @@
 import logo from "./linguicoLogo.png";
 import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
+import swissMade from "./SwissMadeDark.png";
 import screenshot1 from "./screenshot1.png";
 import screenshot2 from "./screenshot2.png";
 import screenshot3 from "./screenshot3.png";
@@ -38,6 +39,18 @@ function App() {
               src={googlePlayButton}
               alt="Get it on Google Play"
               className="App-button"
+            />
+          </a>
+          <a
+            className="App-link"
+            href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic&gl=cn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={swissMade}
+              alt="Swiss Made"
+              className="Swiss-made-button"
             />
           </a>
         </div>
