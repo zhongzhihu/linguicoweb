@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Linguico logo" />
         <h1>Welcome to Linguico</h1>
-        <p>Learn German easily with our iOS and Android app, Linguico!</p>
+        <p>Learn German more effectively with Linguico!</p>
         <p>Available for download on the App Store and Google Play.</p>
         <div className="app-links">
           <a
