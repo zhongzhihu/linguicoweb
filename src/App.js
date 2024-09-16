@@ -1,6 +1,9 @@
-import logo from "./linguicoLogo.png"; // Your app's logo
-import appStoreButton from "./download-app-store-black.svg"; // Replace with your App Store button image
-import googlePlayButton from "./download-play-store.png"; // Replace with your Google Play button image
+import logo from "./linguicoLogo.png";
+import appStoreButton from "./download-app-store-black.svg";
+import googlePlayButton from "./download-play-store.png";
+import screenshot1 from "./screenshot1.png";
+import screenshot2 from "./screenshot2.png";
+import screenshot3 from "./screenshot3.png";
 import "./App.css";
 
 function App() {
@@ -8,8 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Linguico logo" />
-        <h1>Welcome to Linguico</h1>
-        <p>Learn German more effectively with Linguico!</p>
+        <h1>Learn German with Linguico</h1>
         <p>Available for download on the App Store and Google Play.</p>
         <div className="app-links">
           <a
@@ -36,6 +38,11 @@ function App() {
               className="App-button"
             />
           </a>
+        </div>
+        <div className="screenshots">
+          <img src={screenshot1} alt="Screenshot 1" className="Screenshot" />
+          <img src={screenshot2} alt="Screenshot 2" className="Screenshot" />
+          <img src={screenshot3} alt="Screenshot 3" className="Screenshot" />
         </div>
       </header>
     </div>

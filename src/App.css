@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-oscillate infinite 30s ease-in-out; /* Adjusted duration to 30 seconds */
+    animation: App-logo-oscillate infinite 30s ease-in-out;
   }
 }
 
@@ -30,9 +30,23 @@
 }
 
 .App-button {
-  height: 50px; /* Set the height to a consistent value */
-  width: 155px; /* Let the width adjust to maintain aspect ratio */
+  height: 50px; /* Adjust the size as needed */
+  width: auto;
   display: block;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Space above the screenshots */
+}
+
+.Screenshot {
+  height: 600px; /* Adjust the height as needed */
+  width: auto;
+  margin: 0 10px; /* Space between the screenshots */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visual appeal */
 }
 
 @keyframes App-logo-oscillate {
