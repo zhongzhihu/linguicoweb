@@ -1,4 +1,6 @@
-import logo from "./linguicoLogo.png"; // You can replace this with your app's logo
+import logo from "./linguicoLogo.png"; // Your app's logo
+import appStoreButton from "./download-app-store-black.svg"; // Replace with your App Store button image
+import googlePlayButton from "./download-play-store.png"; // Replace with your Google Play button image
 import "./App.css";
 
 function App() {
@@ -16,7 +18,11 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download on the App Store
+            <img
+              src={appStoreButton}
+              alt="Download on the App Store"
+              className="App-button"
+            />
           </a>
           <a
             className="App-link"
@@ -24,7 +30,11 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Get it on Google Play
+            <img
+              src={googlePlayButton}
+              alt="Get it on Google Play"
+              className="App-button"
+            />
           </a>
         </div>
       </header>

@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-oscillate infinite 30s ease-in-out; /* Increased duration to 8 seconds */
+    animation: App-logo-oscillate infinite 30s ease-in-out; /* Adjusted duration to 30 seconds */
   }
 }
 
@@ -25,7 +25,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  display: inline-block;
+  margin: 10px;
+}
+
+.App-button {
+  height: 50px; /* Set the height to a consistent value */
+  width: 155px; /* Let the width adjust to maintain aspect ratio */
+  display: block;
 }
 
 @keyframes App-logo-oscillate {
