@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/linguico/static/css/main.d4a62877.css",
+    "main.js": "/linguico/static/js/main.03a4448e.js",
+    "static/js/453.f0a829ac.chunk.js": "/linguico/static/js/453.f0a829ac.chunk.js",
+    "static/media/screenshot3.png": "/linguico/static/media/screenshot3.50dccac3bd4c1b069147.png",
+    "static/media/screenshot4.png": "/linguico/static/media/screenshot4.fe2363f109a25e321e37.png",
+    "static/media/screenshot5.png": "/linguico/static/media/screenshot5.662c27e838d4d03c975e.png",
+    "static/media/screenshot6.png": "/linguico/static/media/screenshot6.dcdd0ca424ac97626306.png",
+    "static/media/screenshot1.png": "/linguico/static/media/screenshot1.6bda5a0ec5d9e94f253d.png",
+    "static/media/SwissMadeDark.png": "/linguico/static/media/SwissMadeDark.1d4b2760ab5ba014299c.png",
+    "static/media/screenshot2.png": "/linguico/static/media/screenshot2.023c8300705d97796382.png",
+    "static/media/linguicoLogo.png": "/linguico/static/media/linguicoLogo.e2af1e62db51aed7612f.png",
+    "static/media/download-app-store-black.svg": "/linguico/static/media/download-app-store-black.e250c68b531f6067f8e03e48f60f5807.svg",
+    "index.html": "/linguico/index.html",
+    "main.d4a62877.css.map": "/linguico/static/css/main.d4a62877.css.map",
+    "main.03a4448e.js.map": "/linguico/static/js/main.03a4448e.js.map",
+    "453.f0a829ac.chunk.js.map": "/linguico/static/js/453.f0a829ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a62877.css",
+    "static/js/main.03a4448e.js"
+  ]
+}
