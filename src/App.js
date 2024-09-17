@@ -23,7 +23,7 @@ function App() {
       .then((response) => {
         const country = response.data.country;
         if (country === "CH") {
-          setIsSwissUser(true); // User is from Switzerland
+          setIsSwissUser(true);
         }
       })
       .catch((error) => {
@@ -90,6 +90,7 @@ function App() {
           </li>
         </ul>
       </section>
+      {/* Unique Features section*/}
       <section className="Apple-style-section">
         <h2>Discover Linguico's Unique Features</h2>
 
@@ -97,22 +98,33 @@ function App() {
           <div className="feature-box">
             <img src={screenshot1} alt="Feature 1" className="feature-image" />
             <div className="feature-text">
-              <h3>Interactive Flashcards</h3>
-              <p>
-                Learn German vocabulary with our interactive flashcards that
-                adapt to your learning style.
-              </p>
+              <h3>Learn German words with Flashcards</h3>
+              <ul>
+                <li>
+                  Learn German vocabulary with high quality built-in flashcards
+                </li>
+                <li>With grammar info, example sentences and audio.</li>
+                <li>
+                  Flashcards are ordered by word frequency ensuring that you
+                  learn the most relevant words first.
+                </li>
+                <li>
+                  With option to select words from official Goethe A1, A2 or B1
+                  word lists.
+                </li>
+              </ul>
             </div>
           </div>
 
           <div className="feature-box">
-            <img src={screenshot1} alt="Feature 2" className="feature-image" />
+            <img src={screenshot5} alt="Feature 2" className="feature-image" />
             <div className="feature-text">
               <h3>Grammar Focused Exercises</h3>
-              <p>
-                Improve your understanding of German grammar through tailored
-                exercises.
-              </p>
+              <ul>
+                <li>Master der, die, das with focused exercises</li>
+                <li>Improve your German grammar step by step</li>
+                <li>Detailed feedback and explanations</li>
+              </ul>
             </div>
           </div>
         </div>

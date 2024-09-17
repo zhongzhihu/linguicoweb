@@ -102,20 +102,20 @@
 /* Flexbox for each feature box */
 .feature-box {
   display: flex;
-  align-items: center; /* Align image and text vertically */
+  align-items: flex-start; /* Align image and text to the top */
   margin-bottom: 40px; /* Space below boxes */
-  width: 45%; /* Set width to take less space per box */
+  width: 48%; /* Set width to take more space per box */
 }
 
 .feature-image {
-  width: 100px; /* Adjust the width of the image */
+  width: 200px; /* Larger width for the image */
   height: auto;
   margin-right: 20px; /* Space between the image and text */
 }
 
 .feature-text {
   text-align: left; /* Align text to the left */
-  max-width: 200px; /* Make the text part narrower */
+  max-width: 350px; /* Make the text part wider */
 }
 
 .feature-text h3 {
@@ -123,7 +123,14 @@
   margin-bottom: 10px; /* Space below subheading */
 }
 
-.feature-text p {
-  font-size: 1rem; /* Font size for the paragraph */
+.feature-text ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px; /* Indent the list */
+  margin-top: 0; /* Remove default margin */
+}
+
+.feature-text li {
+  font-size: 1rem; /* Font size for list items */
   line-height: 1.5; /* Line height for readability */
+  margin-bottom: 10px; /* Space between bullet points */
 }
