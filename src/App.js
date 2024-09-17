@@ -78,10 +78,9 @@ function App() {
           )}
         </div>
       </header>
-
       {/* New section below screenshots */}
       <section className="Dummy-section">
-        <h2>Explore More Features</h2>
+        <h2>Improve your German proficiency today</h2>
         <ul>
           <li>Flashcards for learning German vocabulary</li>
           <li>Exercises for improving der, die, das</li>
@@ -91,6 +90,15 @@ function App() {
           </li>
         </ul>
       </section>
+      <section className="Apple-style-section">
+        <h2>Linguico addresses weaknesses of other apps</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
+          metus a pretium luctus, felis est fermentum lacus, a egestas nunc
+          lacus a eros.
+        </p>
+      </section>
+      ;
     </div>
   );
 }
