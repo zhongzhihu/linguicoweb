@@ -37,7 +37,8 @@ function App() {
         <img src={logo} className="App-logo" alt="Linguico logo" />
         <h1>Learn German with Linguico</h1>
         <p className="App-small-text App-margin-small">
-          Available for download on the App Store and Google Play.
+          Download Linguico for free on the App Store and Google Play to improve
+          your German today!
         </p>
         <div className="app-links">
           <a
@@ -77,6 +78,19 @@ function App() {
           )}
         </div>
       </header>
+
+      {/* New section below screenshots */}
+      <section className="Dummy-section">
+        <h2>Explore More Features</h2>
+        <ul>
+          <li>Flashcards for learning German vocabulary</li>
+          <li>Exercises for improving der, die, das</li>
+          <li>In-depth grammar exercises</li>
+          <li>
+            Summary tables on prepositions, conjugations, declensions and more
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }

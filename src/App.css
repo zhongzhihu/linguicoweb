@@ -61,3 +61,15 @@
 .App-margin-small {
   margin-top: 0px; /* Adjust margin to decrease space between the two sections */
 }
+.Dummy-section ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px; /* Indent the list */
+  text-align: left; /* Align list items to the left */
+  max-width: 800px; /* Limit the width of the list */
+  margin: 0 auto; /* Center the list */
+}
+
+.Dummy-section li {
+  font-size: 1.2rem; /* Font size for list items */
+  margin-bottom: 10px; /* Space between list items */
+}
