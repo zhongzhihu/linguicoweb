@@ -91,12 +91,31 @@ function App() {
         </ul>
       </section>
       <section className="Apple-style-section">
-        <h2>Linguico addresses weaknesses of other apps</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
-          metus a pretium luctus, felis est fermentum lacus, a egestas nunc
-          lacus a eros.
-        </p>
+        <h2>Discover Linguico's Unique Features</h2>
+
+        <div className="feature-container">
+          <div className="feature-box">
+            <img src={screenshot1} alt="Feature 1" className="feature-image" />
+            <div className="feature-text">
+              <h3>Interactive Flashcards</h3>
+              <p>
+                Learn German vocabulary with our interactive flashcards that
+                adapt to your learning style.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-box">
+            <img src={screenshot1} alt="Feature 2" className="feature-image" />
+            <div className="feature-text">
+              <h3>Grammar Focused Exercises</h3>
+              <p>
+                Improve your understanding of German grammar through tailored
+                exercises.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       ;
     </div>
