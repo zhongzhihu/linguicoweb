@@ -30,11 +30,13 @@ function App() {
         console.error("Error fetching geolocation data:", error);
       });
 
-    // Add the Elfsight widget script
-    const script = document.createElement("script");
-    script.src = "https://static.elfsight.com/platform/platform.js";
-    script.async = true;
-    document.body.appendChild(script);
+    // Conditionally add the Elfsight widget script only in production
+    if (process.env.REACT_APP_ENV === "production") {
+      const script = document.createElement("script");
+      script.src = "https://static.elfsight.com/platform/platform.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, []);
 
   return (
@@ -135,11 +137,13 @@ function App() {
         </div>
       </section>
 
-      {/* Elfsight widget */}
-      <div
-        className="elfsight-app-69943a0c-c6da-404e-b7bd-467c6d5b0789"
-        data-elfsight-app-lazy
-      ></div>
+      {/* Elfsight widget - only load in production */}
+      {process.env.REACT_APP_ENV === "production" && (
+        <div
+          className="elfsight-app-69943a0c-c6da-404e-b7bd-467c6d5b0789"
+          data-elfsight-app-lazy
+        ></div>
+      )}
     </div>
   );
 }
