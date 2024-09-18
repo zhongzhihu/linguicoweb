@@ -146,32 +146,58 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .feature-box {
+    flex: 0 1 50%; /* Each feature box takes up 50% of the container */
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 48%; /* Adjust as needed to fit two boxes side by side */
-    margin-bottom: 40px;
+    padding: 0 10px; /* Add some padding between the boxes */
   }
 
   .feature-image {
-    width: 45%;
-    max-width: 300px;
-    margin-right: 20px;
+    width: 40%;
+    max-width: 200px;
+    margin-right: 15px;
     margin-bottom: 0;
   }
 
   .feature-text {
-    width: 50%;
+    width: 60%;
     max-width: none;
   }
 
   .feature-text h3 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .feature-text li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1440px) {
+  .feature-container {
+    max-width: 1400px;
+  }
+
+  .feature-box {
+    padding: 0 20px; /* Increase padding for larger screens */
+  }
+
+  .feature-image {
+    max-width: 250px;
+  }
+
+  .feature-text h3 {
+    font-size: 1.3rem;
   }
 
   .feature-text li {
