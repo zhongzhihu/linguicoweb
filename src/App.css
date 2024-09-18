@@ -21,28 +21,41 @@
   padding: 20px;
 }
 
+.app-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Ensure horizontal layout */
+  flex-wrap: nowrap; /* Prevent wrapping to new line */
+  gap: 20px; /* Equal space between items */
+  margin-top: 20px;
+}
+
 .App-link {
-  display: inline-block;
-  margin: 10px 5px;
+  display: flex;
+  align-items: center;
 }
 
-.App-button {
-  height: auto;
-  width: 100%;
-  max-width: 200px;
+.App-button,
+.App-button-play,
+.Swiss-made-button {
   display: block;
-}
-
-.App-button-play {
-  width: 100%;
-  max-width: 200px;
+  height: 40px; /* Fixed height for all buttons */
+  width: auto;
+  max-width: 135px;
+  object-fit: contain; /* Preserve aspect ratio */
 }
 
 .Swiss-made-button {
-  height: auto;
-  width: 100%;
-  max-width: 100px;
-  margin-top: 10px;
+  max-width: 100px; /* Adjust if needed */
+}
+
+/* For smaller screens, consider a responsive layout */
+@media (max-width: 600px) {
+  .app-links {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 .screenshots {
@@ -128,6 +141,17 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+  .app-links {
+    flex-direction: column;
+  }
+
+  .App-link,
+  .Swiss-made-button {
+    margin: 10px 0;
+  }
+}
+
 @media (min-width: 1024px) {
   .feature-container {
     flex-direction: row;
@@ -139,12 +163,12 @@
   }
 
   .feature-box {
-    flex: 0 1 50%; /* Each feature box takes up 50% of the container */
+    flex: 0 1 50%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 10px; /* Add some padding between the boxes */
+    padding: 0 10px;
   }
 
   .feature-image {
@@ -176,7 +200,7 @@
   }
 
   .feature-box {
-    padding: 0 20px; /* Increase padding for larger screens */
+    padding: 0 20px;
   }
 
   .feature-image {
