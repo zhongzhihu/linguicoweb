@@ -2,13 +2,28 @@
   text-align: center;
 }
 
+:root {
+  --image-scale: 1;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --image-scale: 0.35; /* Adjust this value to decrease size on mobile */
+  }
+}
+
 .App-logo {
-  width: 80%;
-  max-width: 300px;
+  width: calc(80% * var(--image-scale));
+  max-width: calc(300px * var(--image-scale));
   height: auto;
   pointer-events: none;
 }
 
+/* You can apply this to other images as well */
+.responsive-image {
+  width: calc(100% * var(--image-scale));
+  height: auto;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
