@@ -78,7 +78,6 @@ function App() {
           )}
         </div>
       </header>
-      {/* New section below screenshots */}
       <section className="Dummy-section">
         <h2>Improve your German proficiency today</h2>
         <ul>
@@ -90,7 +89,6 @@ function App() {
           </li>
         </ul>
       </section>
-      {/* Unique Features section*/}
       <section className="Apple-style-section">
         <h2>Discover Linguico's Unique Features</h2>
 
@@ -129,7 +127,6 @@ function App() {
           </div>
         </div>
       </section>
-      ;
     </div>
   );
 }
