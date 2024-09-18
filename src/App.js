@@ -87,18 +87,6 @@ function App() {
         </div>
       </header>
 
-      <section className="Dummy-section">
-        <h2>Improve your German proficiency today</h2>
-        <ul>
-          <li>Flashcards for learning German vocabulary</li>
-          <li>Exercises for improving der, die, das</li>
-          <li>In-depth grammar exercises</li>
-          <li>
-            Summary tables on prepositions, conjugations, declensions and more
-          </li>
-        </ul>
-      </section>
-
       <section className="Apple-style-section">
         <h2>Discover Linguico's Unique Features</h2>
         <div className="feature-container">
