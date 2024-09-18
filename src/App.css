@@ -25,37 +25,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row; /* Ensure horizontal layout */
-  flex-wrap: nowrap; /* Prevent wrapping to new line */
-  gap: 20px; /* Equal space between items */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
   margin-top: 20px;
+  padding: 0 10px;
 }
 
 .App-link {
   display: flex;
   align-items: center;
+  flex: 1;
+  max-width: 33%;
 }
 
 .App-button,
 .App-button-play,
 .Swiss-made-button {
   display: block;
-  height: 40px; /* Fixed height for all buttons */
-  width: auto;
-  max-width: 135px;
-  object-fit: contain; /* Preserve aspect ratio */
-}
-
-.Swiss-made-button {
-  max-width: 100px; /* Adjust if needed */
-}
-
-/* For smaller screens, consider a responsive layout */
-@media (max-width: 600px) {
-  .app-links {
-    flex-direction: column;
-    gap: 15px;
-  }
+  width: 100%;
+  height: auto;
+  max-height: 40px;
+  object-fit: contain;
 }
 
 .screenshots {
@@ -141,14 +132,19 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .app-links {
-    flex-direction: column;
+    gap: 5px;
   }
 
-  .App-link,
+  .App-link {
+    max-width: none;
+  }
+
+  .App-button,
+  .App-button-play,
   .Swiss-made-button {
-    margin: 10px 0;
+    max-height: 30px;
   }
 }
 

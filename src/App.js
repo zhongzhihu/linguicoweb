@@ -73,7 +73,13 @@ function App() {
               className="App-button App-button-play"
             />
           </a>
-          <img src={swissMade} alt="Swiss Made" className="Swiss-made-button" />
+          <div className="App-link">
+            <img
+              src={swissMade}
+              alt="Swiss Made"
+              className="Swiss-made-button"
+            />
+          </div>
         </div>
         <div className="screenshots">
           <img src={screenshot1} alt="Screenshot 1" className="Screenshot" />
