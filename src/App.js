@@ -29,6 +29,12 @@ function App() {
       .catch((error) => {
         console.error("Error fetching geolocation data:", error);
       });
+
+    // Add the Elfsight widget script
+    const script = document.createElement("script");
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
   }, []);
 
   return (
@@ -78,6 +84,7 @@ function App() {
           )}
         </div>
       </header>
+
       <section className="Dummy-section">
         <h2>Improve your German proficiency today</h2>
         <ul>
@@ -89,9 +96,9 @@ function App() {
           </li>
         </ul>
       </section>
+
       <section className="Apple-style-section">
         <h2>Discover Linguico's Unique Features</h2>
-
         <div className="feature-container">
           <div className="feature-box">
             <img src={screenshot1} alt="Feature 1" className="feature-image" />
@@ -127,6 +134,12 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Elfsight widget */}
+      <div
+        className="elfsight-app-69943a0c-c6da-404e-b7bd-467c6d5b0789"
+        data-elfsight-app-lazy
+      ></div>
     </div>
   );
 }
