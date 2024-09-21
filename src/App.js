@@ -10,6 +10,7 @@ import screenshot3 from "./screenshot3.png";
 import screenshot4 from "./screenshot4.png";
 import screenshot5 from "./screenshot5.png";
 import screenshot6 from "./screenshot6.png";
+import derdiedas from "./derdiedas.gif";
 
 import "./App.css";
 
@@ -118,7 +119,7 @@ function App() {
           </div>
 
           <div className="feature-box">
-            <img src={screenshot5} alt="Feature 2" className="feature-image" />
+            <img src={derdiedas} alt="Feature 2" className="feature-image" />
             <div className="feature-text">
               <h3>Grammar Focused Exercises</h3>
               <ul>
