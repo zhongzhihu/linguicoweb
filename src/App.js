@@ -31,12 +31,26 @@ function App() {
         console.error("Error fetching geolocation data:", error);
       });
 
+    // Add Google Analytics tracking script
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-WYDEJ330HW";
+    script.async = true;
+    document.body.appendChild(script);
+
+    // Initialize dataLayer on the window object and set up Google Analytics
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-WYDEJ330HW");
+
     // Conditionally add the Elfsight widget script only in production
     if (process.env.REACT_APP_ENV === "production") {
-      const script = document.createElement("script");
-      script.src = "https://static.elfsight.com/platform/platform.js";
-      script.async = true;
-      document.body.appendChild(script);
+      const elfsightScript = document.createElement("script");
+      elfsightScript.src = "https://static.elfsight.com/platform/platform.js";
+      elfsightScript.async = true;
+      document.body.appendChild(elfsightScript);
     }
   }, []);
 
