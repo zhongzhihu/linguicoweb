@@ -118,19 +118,23 @@ function App() {
           <div className="feature-box">
             <img src={screenshot1} alt="Feature 1" className="feature-image" />
             <div className="feature-text">
-              <h3>Learn German words with Flashcards</h3>
+              <h3>Learn German with Smart Flashcards</h3>
               <ul>
                 <li>
-                  Learn German vocabulary with high quality built-in flashcards
-                </li>
-                <li>With grammar info, example sentences and audio.</li>
-                <li>
-                  Flashcards are ordered by word frequency ensuring that you
-                  learn the most relevant words first.
+                  <strong>High-Quality Built-in Flashcards</strong>: Learn more
+                  efficiently than with public Anki decks
                 </li>
                 <li>
-                  With option to select words from official Goethe A1, A2 or B1
-                  word lists.
+                  <strong>Rich Content</strong>: Grammar info, irregular forms,
+                  example sentences, and audio included
+                </li>
+                <li>
+                  <strong>Frequency-Based Learning</strong>: Focus on the most
+                  useful words first
+                </li>
+                <li>
+                  <strong>Official Wordlists</strong>: Choose from Goethe A1,
+                  A2, or B1 levels
                 </li>
               </ul>
             </div>
