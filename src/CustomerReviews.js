@@ -38,17 +38,10 @@ const getCountryCode = (countryName) => {
   return countryCodeMap[countryName] || "us"; // Default to "us" if not found
 };
 
-const getCountryFlag = (countryCode) => {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split("")
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-};
-
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const [flagUrls, setFlagUrls] = useState({});
   const averageRating =
     reviewsData.reduce((sum, review) => sum + review.rating, 0) /
     reviewsData.length;
@@ -61,6 +54,23 @@ const CustomerReviews = () => {
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    const loadFlags = async () => {
+      const urls = {};
+      for (const country of Object.values(countryCodeMap)) {
+        try {
+          const module = await import(`./flags/${country}.svg`);
+          urls[country] = module.default;
+        } catch (error) {
+          console.error(`Failed to load flag for ${country}:`, error);
+        }
+      }
+      setFlagUrls(urls);
+    };
+
+    loadFlags();
   }, []);
 
   const nextReview = () => {
@@ -86,10 +96,6 @@ const CustomerReviews = () => {
   const displayedReviews = isMobile
     ? [reviewsData[currentIndex]]
     : reviewsData.slice(currentIndex, currentIndex + 5);
-  const renderFlagEmoji = (countryName) => {
-    const flagEmoji = getCountryFlag(getCountryCode(countryName));
-    return <span className="country-flag">{flagEmoji}</span>;
-  };
 
   return (
     <div className="customer-reviews">
@@ -121,7 +127,7 @@ const CustomerReviews = () => {
             <span className="review-count">{reviewsData.length} Ratings</span>
           </div>
         </div>
-      </div>{" "}
+      </div>
       <div className="reviews-carousel">
         <button
           onClick={prevReview}
@@ -158,8 +164,13 @@ const CustomerReviews = () => {
                 className="view-button"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  backgroundImage: `url(${
+                    flagUrls[getCountryCode(review.country)]
+                  })`,
+                }}
               >
-                View in App Store {renderFlagEmoji(review.country)}
+                View in App Store
               </a>
             </div>
           ))}
