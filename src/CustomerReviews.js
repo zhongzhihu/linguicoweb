@@ -95,6 +95,7 @@ const reviewsData = [
     response_date: "Aug 23, 2024",
   },
 ];
+
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -113,14 +114,28 @@ const CustomerReviews = () => {
   }, []);
 
   const nextReview = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsData.length);
+    setCurrentIndex((prevIndex) =>
+      isMobile
+        ? (prevIndex + 1) % reviewsData.length
+        : prevIndex + 5 <= reviewsData.length - 1
+        ? prevIndex + 1
+        : 0
+    );
   };
 
   const prevReview = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + reviewsData.length) % reviewsData.length
+    setCurrentIndex((prevIndex) =>
+      isMobile
+        ? (prevIndex - 1 + reviewsData.length) % reviewsData.length
+        : prevIndex - 1 >= 0
+        ? prevIndex - 1
+        : Math.max(reviewsData.length - 5, 0)
     );
   };
+
+  const displayedReviews = isMobile
+    ? [reviewsData[currentIndex]]
+    : reviewsData.slice(currentIndex, currentIndex + 5);
 
   return (
     <div className="customer-reviews">
@@ -151,59 +166,28 @@ const CustomerReviews = () => {
           <ChevronLeft size={24} />
         </button>
         <div className="reviews-container">
-          {isMobile ? (
-            <div className="review-card">
+          {displayedReviews.map((review, index) => (
+            <div key={currentIndex + index} className="review-card">
               <div className="review-header">
                 <div className="star-rating">
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
-                      fill={
-                        i < reviewsData[currentIndex].rating
-                          ? "#FFD700"
-                          : "none"
-                      }
+                      fill={i < review.rating ? "#FFD700" : "none"}
                       stroke="#FFD700"
                       size={16}
                     />
                   ))}
                 </div>
                 <div className="review-meta">
-                  <span className="username">
-                    {reviewsData[currentIndex].username}
-                  </span>
-                  <span className="date">{reviewsData[currentIndex].date}</span>
+                  <span className="username">{review.username}</span>
+                  <span className="date">{review.date}</span>
                 </div>
               </div>
-              <h3 className="review-title">
-                {reviewsData[currentIndex].title}
-              </h3>
-              <p className="review-text">{reviewsData[currentIndex].text}</p>
+              <h3 className="review-title">{review.title}</h3>
+              <p className="review-text">{review.text}</p>
             </div>
-          ) : (
-            reviewsData.map((review, index) => (
-              <div key={index} className="review-card">
-                <div className="review-header">
-                  <div className="star-rating">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        fill={i < review.rating ? "#FFD700" : "none"}
-                        stroke="#FFD700"
-                        size={16}
-                      />
-                    ))}
-                  </div>
-                  <div className="review-meta">
-                    <span className="username">{review.username}</span>
-                    <span className="date">{review.date}</span>
-                  </div>
-                </div>
-                <h3 className="review-title">{review.title}</h3>
-                <p className="review-text">{review.text}</p>
-              </div>
-            ))
-          )}
+          ))}
         </div>
         <button
           onClick={nextReview}
