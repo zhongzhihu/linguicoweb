@@ -6,9 +6,25 @@
   color: #333;
 }
 
+.reviews-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.app-store-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.reviews-title-container {
+  flex-grow: 1;
+}
+
 .reviews-title {
   font-size: 1.5rem;
-  margin-bottom: 20px;
+  margin: 0 0 10px 0;
   text-align: left;
 }
 
@@ -122,6 +138,7 @@
   font-weight: bold;
   font-size: 0.9rem;
 }
+
 @media (min-width: 769px) {
   .reviews-container {
     display: grid;

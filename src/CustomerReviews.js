@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
-import { reviewsData } from "./reviewsData";
+import { reviewsData } from "./reviewsData"; // Ensure this import path is correct
+import appStoreIcon from ".//app-store-icon.png"; // Import the image file
 
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,23 +46,32 @@ const CustomerReviews = () => {
 
   return (
     <div className="customer-reviews">
-      <h2 className="reviews-title">Ratings and Reviews</h2>
-      <div className="app-store-rating">
-        <div className="rating-summary">
-          <span className="average-rating">{averageRating.toFixed(1)}</span>
-          <span className="out-of">out of 5</span>
+      <div className="reviews-header">
+        <img
+          src={appStoreIcon}
+          alt="App Store icon"
+          className="app-store-icon"
+        />
+        <div className="reviews-title-container">
+          <h2 className="reviews-title">App Store Reviews</h2>
+          <div className="app-store-rating">
+            <div className="rating-summary">
+              <span className="average-rating">{averageRating.toFixed(1)}</span>
+              <span className="out-of">out of 5</span>
+            </div>
+            <div className="star-rating">
+              {[...Array(5)].map((_, i) => (
+                <Star
+                  key={i}
+                  fill={i < Math.round(averageRating) ? "#FFD700" : "none"}
+                  stroke="#FFD700"
+                  size={24}
+                />
+              ))}
+            </div>
+            <span className="review-count">{reviewsData.length} Ratings</span>
+          </div>
         </div>
-        <div className="star-rating">
-          {[...Array(5)].map((_, i) => (
-            <Star
-              key={i}
-              fill={i < Math.round(averageRating) ? "#FFD700" : "none"}
-              stroke="#FFD700"
-              size={24}
-            />
-          ))}
-        </div>
-        <span className="review-count">{reviewsData.length} Ratings</span>
       </div>
       <div className="reviews-carousel">
         <button
