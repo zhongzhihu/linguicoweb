@@ -98,18 +98,33 @@ const reviewsData = [
 
 const CustomerReviews = () => {
   const [startIndex, setStartIndex] = useState(0);
+  const [visibleReviews, setVisibleReviews] = useState(5);
   const averageRating =
     reviewsData.reduce((sum, review) => sum + review.rating, 0) /
     reviewsData.length;
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setVisibleReviews(2);
+      } else {
+        setVisibleReviews(5);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const nextReviews = () => {
     setStartIndex((prevIndex) =>
-      Math.min(prevIndex + 5, reviewsData.length - 5)
+      Math.min(prevIndex + visibleReviews, reviewsData.length - visibleReviews)
     );
   };
 
   const prevReviews = () => {
-    setStartIndex((prevIndex) => Math.max(prevIndex - 5, 0));
+    setStartIndex((prevIndex) => Math.max(prevIndex - visibleReviews, 0));
   };
 
   return (
@@ -142,7 +157,7 @@ const CustomerReviews = () => {
         </button>
         <div className="reviews-row">
           {reviewsData
-            .slice(startIndex, startIndex + 5)
+            .slice(startIndex, startIndex + visibleReviews)
             .map((review, index) => (
               <div key={index} className="review-card">
                 <div className="review-header">
@@ -169,7 +184,7 @@ const CustomerReviews = () => {
         <button
           onClick={nextReviews}
           className="carousel-button"
-          disabled={startIndex >= reviewsData.length - 5}
+          disabled={startIndex >= reviewsData.length - visibleReviews}
         >
           <ChevronRight size={24} />
         </button>
