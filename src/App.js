@@ -113,7 +113,7 @@ function App() {
       </header>
 
       <section className="Apple-style-section">
-        <h2>Discover Linguico's Unique Features</h2>
+        <h2>Discover Linguico's Top Features</h2>
         <div className="feature-container">
           <div className="feature-box">
             <img src={screenshot1} alt="Feature 1" className="feature-image" />
@@ -143,11 +143,22 @@ function App() {
           <div className="feature-box">
             <img src={derdiedas} alt="Feature 2" className="feature-image" />
             <div className="feature-text">
-              <h3>Grammar Focused Exercises</h3>
+              <h3>Practice der, die, das</h3>
               <ul>
-                <li>Master der, die, das with focused exercises</li>
-                <li>Improve your German grammar step by step</li>
-                <li>Detailed feedback and explanations</li>
+                <li>
+                  <strong>Engage with fun Exercises:</strong> Guess the correct
+                  article der, die, das for German nouns
+                </li>
+                <li>
+                  <strong>Reinforce Pattern Recognition:</strong> Learn to
+                  identify articles through hints provided instantly after
+                  selecting the article
+                </li>
+
+                <li>
+                  <strong>Progress at your own pace:</strong> Practice with a
+                  wide range of nouns, from frequent to less frequent words
+                </li>
               </ul>
             </div>
           </div>
