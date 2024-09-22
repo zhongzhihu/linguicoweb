@@ -60,10 +60,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Linguico logo" />
-        <h1>Learn German with Linguico</h1>
+        <h1>Learn German for free with Linguico</h1>
         <p className="App-small-text App-margin-small">
-          Download Linguico for free on the App Store and Google Play to improve
-          your German today!
+          Linguico is designed to address shortcomings in other language apps
+          like Duolingo, Babbel, etc. <br />
+          Download Linguico on the App Store and Google Play to improve your
+          German today!
         </p>
         <div className="app-links">
           <a
