@@ -102,8 +102,16 @@ const CustomerReviews = () => {
                   <span className="date">{review.date}</span>
                 </div>
               </div>
-              <h3 className="review-title">{review.title}</h3>
+              <h3 className="review-title">{review.title}</h3>{" "}
               <p className="review-text">{review.text}</p>
+              <a
+                href={`https://apps.apple.com/us/app/id6578450704?action=write-review`}
+                className="view-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View in App Store
+              </a>
             </div>
           ))}
         </div>
