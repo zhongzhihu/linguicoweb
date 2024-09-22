@@ -3,6 +3,41 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { reviewsData } from "./reviewsData";
 import appStoreIcon from "./app-store-icon.png";
 
+const countryCodeMap = {
+  Australia: "au",
+  Belgium: "be",
+  Brazil: "br",
+  Canada: "ca",
+  Croatia: "hr",
+  Finland: "fi",
+  France: "fr",
+  Germany: "de",
+  Greece: "gr",
+  "Hong Kong": "hk",
+  Hungary: "hu",
+  India: "in",
+  Ireland: "ie",
+  Italy: "it",
+  Latvia: "lv",
+  Netherlands: "nl",
+  Norway: "no",
+  Pakistan: "pk",
+  Poland: "pl",
+  Singapore: "sg",
+  Spain: "es",
+  "Sri Lanka": "lk",
+  Switzerland: "ch",
+  Thailand: "th",
+  Ukraine: "ua",
+  "United Kingdom": "gb",
+  "United States": "us",
+  Vietnam: "vn",
+};
+
+const getCountryCode = (countryName) => {
+  return countryCodeMap[countryName] || "us"; // Default to "us" if not found
+};
+
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -105,7 +140,9 @@ const CustomerReviews = () => {
               <h3 className="review-title">{review.title}</h3>{" "}
               <p className="review-text">{review.text}</p>
               <a
-                href={`https://apps.apple.com/us/app/id6578450704?action=write-review`}
+                href={`https://apps.apple.com/${getCountryCode(
+                  review.country
+                )}/app/id6578450704?action=write-review`}
                 className="view-button"
                 target="_blank"
                 rel="noopener noreferrer"
