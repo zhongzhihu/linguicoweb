@@ -1,4 +1,28 @@
-const reviewsData = [
+export const reviewsData = [
+  {
+    title: "Spatial Repetition Learning!",
+    text: "Great app to help brush up on my German using Anki Style cards. The tts is helpful getting the pronunciation right also!",
+    username: "Lgcfrvkitdvk",
+    date: "Sep 21, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great app for learning German.",
+    text: "Learning through virtual flashcards is an excellent way to reinforce knowledge!",
+    username: "Dr.bloom",
+    date: "Sep 20, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "#1 app to learn German",
+    text: "Linguico is a fun and effective app for learning German through engaging flashcards and interactive games. It makes language learning accessible, combining useful vocabulary with an enjoyable experience. Perfect for learners of all levels! I also love that it’s free and you don’t need to make an account!",
+    username: "Jefficthepic",
+    date: "Sep 20, 2024",
+    rating: 5,
+    country: "United States",
+  },
   {
     title: "Great app!: very helpful and straight forward",
     text: "This is actually a really helpful application for a few reasons! And specifically for me as someone who doesn’t speak German, but has an interest in learning it, that it seems like there are patterns and similarities between English and German that should be easy to get, but it’s still very hard for me. I like how this really does lay it out there plain and simple, and in a way that actually does stick. This is the way I learn best. Thanks!!",
@@ -92,5 +116,3 @@ const reviewsData = [
     response_date: "Aug 23, 2024",
   },
 ];
-
-export default reviewsData;
