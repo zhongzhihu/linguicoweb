@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
-import { reviewsData } from "./reviewsData"; // Ensure this import path is correct
-import appStoreIcon from "./app-store-icon.png"; // Import the image file
+import { reviewsData } from "./reviewsData";
+import appStoreIcon from "./app-store-icon.png";
 
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -118,8 +118,10 @@ const CustomerReviews = () => {
       <a
         href="https://apps.apple.com/us/app/id6578450704"
         className="review-button"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        See All
+        Review us on the App Store
       </a>
     </div>
   );
