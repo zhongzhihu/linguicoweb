@@ -25,7 +25,7 @@ const CustomerReviews = () => {
       isMobile
         ? (prevIndex + 1) % reviewsData.length
         : prevIndex + 5 <= reviewsData.length - 1
-        ? prevIndex + 1
+        ? prevIndex + 5
         : 0
     );
   };
@@ -34,8 +34,8 @@ const CustomerReviews = () => {
     setCurrentIndex((prevIndex) =>
       isMobile
         ? (prevIndex - 1 + reviewsData.length) % reviewsData.length
-        : prevIndex - 1 >= 0
-        ? prevIndex - 1
+        : prevIndex - 5 >= 0
+        ? prevIndex - 5
         : Math.max(reviewsData.length - 5, 0)
     );
   };
