@@ -101,11 +101,18 @@ const CustomerReviews = () => {
         <div className="reviews-title-container">
           <h2 className="reviews-title">
             App Store Reviews
-            <img
-              src={appStoreIcon}
-              alt="App Store icon"
-              className="app-store-icon"
-            />
+            <a
+              href="https://apps.apple.com/us/app/id6578450704"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="app-store-icon-link"
+            >
+              <img
+                src={appStoreIcon}
+                alt="App Store icon"
+                className="app-store-icon"
+              />
+            </a>
           </h2>
           <div className="app-store-rating">
             <div className="rating-summary">
