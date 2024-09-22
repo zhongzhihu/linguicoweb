@@ -38,6 +38,14 @@ const getCountryCode = (countryName) => {
   return countryCodeMap[countryName] || "us"; // Default to "us" if not found
 };
 
+const getCountryFlag = (countryCode) => {
+  const codePoints = countryCode
+    .toUpperCase()
+    .split("")
+    .map((char) => 127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
+};
+
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -78,6 +86,10 @@ const CustomerReviews = () => {
   const displayedReviews = isMobile
     ? [reviewsData[currentIndex]]
     : reviewsData.slice(currentIndex, currentIndex + 5);
+  const renderFlagEmoji = (countryName) => {
+    const flagEmoji = getCountryFlag(getCountryCode(countryName));
+    return <span className="country-flag">{flagEmoji}</span>;
+  };
 
   return (
     <div className="customer-reviews">
@@ -109,7 +121,7 @@ const CustomerReviews = () => {
             <span className="review-count">{reviewsData.length} Ratings</span>
           </div>
         </div>
-      </div>
+      </div>{" "}
       <div className="reviews-carousel">
         <button
           onClick={prevReview}
@@ -137,7 +149,7 @@ const CustomerReviews = () => {
                   <span className="date">{review.date}</span>
                 </div>
               </div>
-              <h3 className="review-title">{review.title}</h3>{" "}
+              <h3 className="review-title">{review.title}</h3>
               <p className="review-text">{review.text}</p>
               <a
                 href={`https://apps.apple.com/${getCountryCode(
@@ -147,7 +159,7 @@ const CustomerReviews = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View in App Store
+                View in App Store {renderFlagEmoji(review.country)}
               </a>
             </div>
           ))}
