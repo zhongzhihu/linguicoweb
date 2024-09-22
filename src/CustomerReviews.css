@@ -7,25 +7,26 @@
 }
 
 .reviews-header {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-.app-store-icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
+  margin-bottom: 30px;
 }
 
 .reviews-title-container {
-  flex-grow: 1;
+  width: 100%;
 }
 
 .reviews-title {
   font-size: 1.5rem;
   margin: 0 0 10px 0;
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.app-store-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
 
 .app-store-rating {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { reviewsData } from "./reviewsData"; // Ensure this import path is correct
-import appStoreIcon from ".//app-store-icon.png"; // Import the image file
+import appStoreIcon from "./app-store-icon.png"; // Import the image file
 
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,13 +47,15 @@ const CustomerReviews = () => {
   return (
     <div className="customer-reviews">
       <div className="reviews-header">
-        <img
-          src={appStoreIcon}
-          alt="App Store icon"
-          className="app-store-icon"
-        />
         <div className="reviews-title-container">
-          <h2 className="reviews-title">App Store Reviews</h2>
+          <h2 className="reviews-title">
+            App Store Reviews
+            <img
+              src={appStoreIcon}
+              alt="App Store icon"
+              className="app-store-icon"
+            />
+          </h2>
           <div className="app-store-rating">
             <div className="rating-summary">
               <span className="average-rating">{averageRating.toFixed(1)}</span>
