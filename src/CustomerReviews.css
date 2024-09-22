@@ -15,10 +15,11 @@
 
 .reviews-title-container {
   width: 100%;
-  margin-left: 30px;
+  margin-left: 0;
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .reviews-title {
   font-size: 1.5rem;
   margin: 0 0 10px 0;
@@ -79,10 +80,10 @@
 }
 
 .reviews-container {
-  display: flex;
-  overflow: hidden;
+  display: grid;
+  gap: 20px;
   width: 100%;
-  transition: transform 0.3s ease-in-out;
+  transition: none;
 }
 
 .review-card {
@@ -173,20 +174,23 @@
   margin-left: 5px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .reviews-container {
-    display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    transition: none;
-  }
-
-  .review-card {
-    width: auto;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .reviews-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews-container {
+    grid-template-columns: 1fr;
+  }
+
   .customer-reviews {
     padding: 15px;
   }

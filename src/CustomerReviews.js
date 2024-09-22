@@ -37,9 +37,10 @@ const countryCodeMap = {
 const getCountryCode = (countryName) => {
   return countryCodeMap[countryName] || "us"; // Default to "us" if not found
 };
+
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  const [visibleReviews, setVisibleReviews] = useState(5);
   const [flagUrls, setFlagUrls] = useState({});
   const averageRating =
     reviewsData.reduce((sum, review) => sum + review.rating, 0) /
@@ -47,7 +48,13 @@ const CustomerReviews = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      if (window.innerWidth >= 1200) {
+        setVisibleReviews(5);
+      } else if (window.innerWidth >= 768) {
+        setVisibleReviews(3);
+      } else {
+        setVisibleReviews(1);
+      }
     };
 
     handleResize();
@@ -73,28 +80,23 @@ const CustomerReviews = () => {
   }, []);
 
   const nextReview = () => {
-    setCurrentIndex((prevIndex) =>
-      isMobile
-        ? (prevIndex + 1) % reviewsData.length
-        : prevIndex + 5 <= reviewsData.length - 1
-        ? prevIndex + 5
-        : 0
+    setCurrentIndex(
+      (prevIndex) => (prevIndex + visibleReviews) % reviewsData.length
     );
   };
 
   const prevReview = () => {
-    setCurrentIndex((prevIndex) =>
-      isMobile
-        ? (prevIndex - 1 + reviewsData.length) % reviewsData.length
-        : prevIndex - 5 >= 0
-        ? prevIndex - 5
-        : Math.max(reviewsData.length - 5, 0)
+    setCurrentIndex(
+      (prevIndex) =>
+        (prevIndex - visibleReviews + reviewsData.length) % reviewsData.length
     );
   };
 
-  const displayedReviews = isMobile
-    ? [reviewsData[currentIndex]]
-    : reviewsData.slice(currentIndex, currentIndex + 5);
+  const displayedReviews = reviewsData.slice(
+    currentIndex,
+    currentIndex + visibleReviews
+  );
+
   return (
     <div className="customer-reviews">
       <div className="reviews-header">
@@ -132,7 +134,7 @@ const CustomerReviews = () => {
             <span className="review-count">{reviewsData.length} Ratings</span>
           </div>
         </div>
-      </div>{" "}
+      </div>
       <div className="reviews-carousel">
         <button
           onClick={prevReview}
@@ -158,7 +160,7 @@ const CustomerReviews = () => {
                 <div className="review-meta">
                   <span className="username">{review.username}</span>
                   <span className="date">{review.date}</span>
-                </div>{" "}
+                </div>
               </div>
               <h3 className="review-title">{review.title}</h3>
               <p className="review-text">{review.text}</p>
