@@ -11,8 +11,10 @@ import screenshot4 from "./screenshot4.png";
 import screenshot5 from "./screenshot5.png";
 import screenshot6 from "./screenshot6.png";
 import derdiedas from "./derdiedas.gif";
+import CustomerReviews from "./CustomerReviews";
 
 import "./App.css";
+import "./CustomerReviews.css";
 
 function App() {
   const [isSwissUser, setIsSwissUser] = useState(false);
@@ -146,13 +148,9 @@ function App() {
         </div>
       </section>
 
-      {/* Elfsight widget - only load in production */}
-      {process.env.REACT_APP_ENV === "production" && (
-        <div
-          className="elfsight-app-69943a0c-c6da-404e-b7bd-467c6d5b0789"
-          data-elfsight-app-lazy
-        ></div>
-      )}
+      <CustomerReviews />
+
+      {/* ... (rest of the component remains the same) */}
     </div>
   );
 }
