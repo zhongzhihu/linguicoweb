@@ -37,7 +37,6 @@ const countryCodeMap = {
 const getCountryCode = (countryName) => {
   return countryCodeMap[countryName] || "us"; // Default to "us" if not found
 };
-
 const CustomerReviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -96,7 +95,6 @@ const CustomerReviews = () => {
   const displayedReviews = isMobile
     ? [reviewsData[currentIndex]]
     : reviewsData.slice(currentIndex, currentIndex + 5);
-
   return (
     <div className="customer-reviews">
       <div className="reviews-header">
@@ -127,7 +125,7 @@ const CustomerReviews = () => {
             <span className="review-count">{reviewsData.length} Ratings</span>
           </div>
         </div>
-      </div>
+      </div>{" "}
       <div className="reviews-carousel">
         <button
           onClick={prevReview}
@@ -153,25 +151,27 @@ const CustomerReviews = () => {
                 <div className="review-meta">
                   <span className="username">{review.username}</span>
                   <span className="date">{review.date}</span>
-                </div>
+                </div>{" "}
               </div>
               <h3 className="review-title">{review.title}</h3>
               <p className="review-text">{review.text}</p>
-              <a
-                href={`https://apps.apple.com/${getCountryCode(
-                  review.country
-                )}/app/id6578450704?action=write-review`}
-                className="view-button"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  backgroundImage: `url(${
-                    flagUrls[getCountryCode(review.country)]
-                  })`,
-                }}
-              >
-                View in App Store
-              </a>
+              <div className="view-button-container">
+                <a
+                  href={`https://apps.apple.com/${getCountryCode(
+                    review.country
+                  )}/app/id6578450704`}
+                  className="view-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View in App Store
+                  <img
+                    src={flagUrls[getCountryCode(review.country)]}
+                    alt={`${review.country} flag`}
+                    className="country-flag"
+                  />
+                </a>
+              </div>
             </div>
           ))}
         </div>

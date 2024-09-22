@@ -140,24 +140,35 @@
   font-weight: bold;
   font-size: 0.9rem;
 }
-.country-flag {
-  font-size: 1em;
-  line-height: 1;
-  vertical-align: middle;
-  display: inline-block;
-  margin-left: 0.25em;
+.view-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.view-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .view-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #666;
   text-decoration: none;
   font-size: 0.8rem;
-  margin-top: 10px;
-  padding-left: 25px;
-  background-repeat: no-repeat;
-  background-position: 5px center;
-  background-size: 16px 16px;
+}
+
+.view-button:hover {
+  text-decoration: underline;
+}
+
+.country-flag {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
 }
 
 @media (min-width: 769px) {
