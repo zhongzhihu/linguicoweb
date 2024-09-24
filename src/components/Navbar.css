@@ -20,14 +20,15 @@
 
 .nav-items {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
 }
 
 .nav-items a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: rem;
+  gap: 2rem; /* Increased from 1rem to 2rem for more spacing */
   font-weight: bold; /* Make the text bold */
   transition: color 0.3s ease; /* Smooth transition for color change */
 }
@@ -47,6 +48,7 @@
 
   .nav-items {
     display: none;
+    gap: 1rem; /* Reduce gap for mobile view */
   }
 
   .nav-items.open {

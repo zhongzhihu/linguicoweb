@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import axios from "axios";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import appStoreButton from "./download-app-store-black.svg";
@@ -9,50 +8,11 @@ import swissMade from "./SwissMadeDark.png";
 import screenshot1 from "./screenshot1.png";
 import derdiedas from "./der-die-das.gif";
 import CustomerReviews from "./CustomerReviews";
-
+import Contact from "./components/Contact";
 import "./App.css";
 import "./CustomerReviews.css";
 
 function App() {
-  const [isSwissUser, setIsSwissUser] = useState(false);
-
-  useEffect(() => {
-    // Fetch the user's geolocation data
-    axios
-      .get("https://ipapi.co/json/")
-      .then((response) => {
-        const country = response.data.country;
-        if (country === "CH") {
-          setIsSwissUser(true);
-        }
-      })
-      .catch((error) => {
-        console.error("Error fetching geolocation data:", error);
-      });
-
-    // Add Google Analytics tracking script
-    const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-WYDEJ330HW";
-    script.async = true;
-    document.body.appendChild(script);
-
-    // Initialize dataLayer on the window object and set up Google Analytics
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-WYDEJ330HW");
-
-    // Conditionally add the Elfsight widget script only in production
-    if (process.env.REACT_APP_ENV === "production") {
-      const elfsightScript = document.createElement("script");
-      elfsightScript.src = "https://static.elfsight.com/platform/platform.js";
-      elfsightScript.async = true;
-      document.body.appendChild(elfsightScript);
-    }
-  }, []);
-
   const Home = () => (
     <>
       <header className="App-header">
@@ -163,7 +123,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* Add other routes as needed */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
