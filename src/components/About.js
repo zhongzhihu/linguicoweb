@@ -6,16 +6,20 @@ const About = () => {
     <div className="about-container">
       <h1>About Linguico</h1>
       <p>
-        Linguico is a free language learning app designed to help you master
-        German efficiently and effectively. Developed in Switzerland by a data
-        scientist and a native German speaker, Linguico was born from the
-        realization that existing language learning apps often fall short in
-        targeting relevant vocabulary and providing in-depth focus on grammar
-        topics.
+        Have you ever felt that your language learning app isn't meeting your
+        needs? That's exactly why we created Linguico. We're a small team in
+        Switzerland - a data scientist and a native German speaker - who became
+        frustrated with apps that weren't focusing on truly useful vocabulary
+        and comprehensive grammar. Linguico is our solution to this problem.
+        It's a free app designed to teach you what you really need to learn
+        German. Our goal is to help you learn relevant vocabulary and practice
+        grammar in depth. We believe this approach is crucial for genuinely
+        learning to speak German, rather than just memorizing a few set of
+        phrases.
       </p>
       <p>
         Our mission is to address these shortcomings and provide a
-        comprehensive, engaging learning experience.
+        comprehensive, effective learning experience.
       </p>
       <h2>Our Philosophy</h2>
       <p>
@@ -28,14 +32,18 @@ const About = () => {
       <p>
         If you're already using other language learning apps like Duolingo,
         Linguico serves as an excellent complementary tool — and for many
-        learners, it is even a preferred substitute. Our focus on relevant
-        vocabulary, in-depth grammar exercises, and comprehensive vocabulary
-        deck sets us apart.
+        learners, it is even a preferred substitute.
       </p>
 
       <h2>Future Plans</h2>
       <ul>
-        <li>Expand language offerings to include Spanish, French, and Dutch</li>
+        <li>
+          Expand language offerings for learning Spanish, French, and Dutch
+        </li>
+        <li>
+          Option to learn languages through our current website in addition to
+          the mobile app.
+        </li>
       </ul>
     </div>
   );
