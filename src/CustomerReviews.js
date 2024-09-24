@@ -5,6 +5,7 @@ import appStoreIcon from "./app-store-icon.png";
 
 const countryCodeMap = {
   Australia: "au",
+  "Bosnia and Herzegovina": "ba",
   Belgium: "be",
   Brazil: "br",
   Canada: "ca",

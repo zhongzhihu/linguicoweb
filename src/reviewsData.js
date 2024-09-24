@@ -1,5 +1,37 @@
 export const reviewsData = [
   {
+    title: "Replace your German course with this app",
+    text: "I love Duolingo, don’t get me wrong. But this app does what other language apps don’t. It provides German learning in an easy, intuitive manner that can replace a school course (which Duolingo can’t). Personally, when I learn a language, I need to practice verb conjugations. This app provides a gamified solution to conjugation practice and I love it! Thank you guys!",
+    username: "Misteryio101",
+    date: "Sep 22, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "The best german learning app out there",
+    text: "I really love the simplicity and the vast array of language learning tools available.",
+    username: "Arafaysaleem",
+    date: "Sep 22, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Jako korisna aplikacija",
+    text: "Veoma korisna aplikacija, posebno flash cards, mnogo su bolje nego Anki app. Zanimljiv koncept ucenja gdje imas dobar pregled cjeline koju zatim mozes vjezbati kroz razne vjezbice.",
+    username: "_capoeira_",
+    date: "Sep 21, 2024",
+    rating: 5,
+    country: "Bosnia and Herzegovina",
+  },
+  {
+    title: "Neeeeat",
+    text: "The flash card is exactly what I need for language learning!",
+    username: "Jjack2685",
+    date: "Sep 21, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Spatial Repetition Learning!",
     text: "Great app to help brush up on my German using Anki Style cards. The tts is helpful getting the pronunciation right also!",
     username: "Lgcfrvkitdvk",
