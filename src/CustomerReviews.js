@@ -24,6 +24,7 @@ const countryCodeMap = {
   Norway: "no",
   Pakistan: "pk",
   Poland: "pl",
+  Romania: "ro",
   Singapore: "sg",
   Spain: "es",
   "Sri Lanka": "lk",

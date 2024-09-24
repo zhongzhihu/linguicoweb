@@ -32,13 +32,6 @@ const About = () => {
         vocabulary, in-depth grammar exercises, and comprehensive vocabulary
         deck sets us apart.
       </p>
-      <h2>Key Features</h2>
-      <ul>
-        <li>Smart Flashcards with high-quality, curated content</li>
-        <li>Interactive exercises for practicing "der, die, das"</li>
-        <li>Frequency-based learning to focus on the most useful words</li>
-        <li>Official wordlists from Goethe Institute (A1, A2, B1 levels)</li>
-      </ul>
 
       <h2>Future Plans</h2>
       <ul>

@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Odlicna",
+    text: "Sviđa mi se korišćenje aplikacije za unapređenje mog znanja nemačkih reči i gramatike. Aplikacija detaljno obrađuje gramatičke teme kao što su predlozi i nemački članci 'der, die, das'.",
+    username: "AkrabDng",
+    date: "Sep 23, 2024",
+    rating: 5,
+    country: "Bosnia and Herzegovina",
+  },
+  {
+    title: "Eficient pentru învățarea vocabularului german",
+    text: "Învăț vocabularul german mult mai eficient decât înainte. Îmi plac tabelele concise de rezumat al gramaticii.",
+    username: "Frizles66",
+    date: "Sep 23, 2024",
+    rating: 5,
+    country: "Romania",
+  },
+  {
     title: "Replace your German course with this app",
     text: "I love Duolingo, don’t get me wrong. But this app does what other language apps don’t. It provides German learning in an easy, intuitive manner that can replace a school course (which Duolingo can’t). Personally, when I learn a language, I need to practice verb conjugations. This app provides a gamified solution to conjugation practice and I love it! Thank you guys!",
     username: "Misteryio101",
