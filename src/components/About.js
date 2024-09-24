@@ -8,14 +8,13 @@ const About = () => {
       <p>
         Have you ever felt that your language learning app isn't meeting your
         needs? That's exactly why we created Linguico. We're a small team in
-        Switzerland - a data scientist and a native German speaker - who became
-        frustrated with apps that weren't focusing on truly useful vocabulary
-        and comprehensive grammar. Linguico is our solution to this problem.
-        It's a free app designed to teach you what you really need to learn
-        German. Our goal is to help you learn relevant vocabulary and practice
-        grammar in depth. We believe this approach is crucial for genuinely
-        learning to speak German, rather than just memorizing a few set of
-        phrases.
+        Switzerland - who became frustrated with apps that weren't focusing on
+        truly useful vocabulary and comprehensive grammar. Linguico is our
+        solution to this problem. It's a free app designed to teach you what you
+        really need to learn German. Our goal is to help you learn relevant
+        vocabulary and practice grammar in depth. We believe this approach is
+        crucial for genuinely learning to speak German, rather than just
+        memorizing a few set of phrases.
       </p>
       <p>
         Our mission is to address these shortcomings and provide a
