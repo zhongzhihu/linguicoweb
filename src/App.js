@@ -10,7 +10,7 @@ import screenshot3 from "./screenshot3.png";
 import screenshot4 from "./screenshot4.png";
 import screenshot5 from "./screenshot5.png";
 import screenshot6 from "./screenshot6.png";
-import derdiedas from "./derdiedas.gif";
+import derdiedas from "./der-die-das.gif";
 import CustomerReviews from "./CustomerReviews";
 
 import "./App.css";
