@@ -21,28 +21,15 @@
   justify-content: flex-start; /* Changed from center to flex-start */
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 60px 20px; /* Increased padding to add more vertical space */
+  padding: 20px 20px; /* Increased padding to add more vertical space */
   width: 100%;
   box-sizing: border-box;
 }
 
 /* Add this new class for additional margin if needed */
 .App-content {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
-}
-
-.App-logo {
-  width: calc(80% * var(--image-scale));
-  max-width: calc(300px * var(--image-scale));
-  height: auto;
-  pointer-events: none;
-}
-
-/* You can apply this to other images as well */
-.responsive-image {
-  width: calc(100% * var(--image-scale));
-  height: auto;
 }
 
 .app-links {
@@ -71,13 +58,6 @@
   height: auto;
   max-height: 40px;
   object-fit: contain;
-}
-
-.screenshots {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 .Screenshot {
