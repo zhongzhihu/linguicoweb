@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./components/Navbar";
 import logo from "./linguicoLogo.png";
 import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
@@ -58,6 +59,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Linguico logo" />
         <h1>Learn German for free with Linguico</h1>
@@ -154,7 +156,6 @@ function App() {
                   identify articles through hints provided instantly after
                   selecting the article
                 </li>
-
                 <li>
                   <strong>Progress at your own pace:</strong> Practice with a
                   wide range of nouns, from frequent to less frequent words
@@ -166,8 +167,6 @@ function App() {
       </section>
 
       <CustomerReviews />
-
-      {/* ... (rest of the component remains the same) */}
     </div>
   );
 }

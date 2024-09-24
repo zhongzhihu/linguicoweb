@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  position: relative;
+  padding-top: 60px; /* Adjust this value based on your navbar height */
 }
-
 :root {
   --image-scale: 1;
 }
@@ -10,6 +10,18 @@
   :root {
     --image-scale: 0.35; /* Adjust this value to decrease size on mobile */
   }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
 }
 
 .App-logo {
