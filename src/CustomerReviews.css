@@ -142,11 +142,14 @@
 }
 
 .review-button {
-  display: inline-block;
+  display: block;
   color: #007aff;
   text-decoration: none;
   font-weight: bold;
   font-size: 0.9rem;
+  text-align: center;
+  margin: 20px auto 0;
+  width: fit-content;
 }
 
 .view-button-container {
