@@ -1,6 +1,7 @@
 .App {
-  position: relative;
-  padding-top: 60px; /* Adjust this value based on your navbar height */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 :root {
   --image-scale: 1;
@@ -22,6 +23,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .App-logo {

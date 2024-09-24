@@ -1,10 +1,8 @@
 .navbar {
   background-color: #353a45;
   padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -16,11 +14,11 @@
 }
 
 .navbar-brand {
-  margin-right: 2rem;
+  margin-right: 2rem; /* Add space between logo and links */
 }
 
 .navbar-logo {
-  height: 30px; /* Adjust this value to match your logo's proportions */
+  height: 30px;
   width: auto;
 }
 
@@ -38,7 +36,7 @@
 }
 
 .navbar-links a:hover {
-  color: #61dafb; /* You might want to change this color to match your brand */
+  color: #61dafb;
 }
 
 @media (max-width: 768px) {

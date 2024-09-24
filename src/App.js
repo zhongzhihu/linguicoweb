@@ -61,7 +61,6 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="Linguico logo" />
         <h1>Learn German for free with Linguico</h1>
         <p className="App-small-text App-margin-small">
           Linguico is designed to address shortcomings in other language apps
