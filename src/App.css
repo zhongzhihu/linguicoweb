@@ -3,6 +3,7 @@
   max-width: 100%;
   overflow-x: hidden;
 }
+
 :root {
   --image-scale: 1;
 }
@@ -12,6 +13,7 @@
     --image-scale: 0.35; /* Adjust this value to decrease size on mobile */
   }
 }
+
 .App-header {
   background-color: #282c34;
   min-height: auto; /* Changed from 100vh to auto */
@@ -21,7 +23,7 @@
   justify-content: flex-start; /* Changed from center to flex-start */
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px 20px; /* Increased padding to add more vertical space */
+  padding: 0px 20px; /* Increased padding to add more vertical space */
   width: 100%;
   box-sizing: border-box;
 }
@@ -38,7 +40,8 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 15px;
+
   margin-top: 20px;
   padding: 0 10px;
 }
@@ -47,7 +50,7 @@
   display: flex;
   align-items: center;
   flex: 1;
-  max-width: 33%;
+  max-width: 22%;
 }
 
 .App-button,
@@ -138,7 +141,7 @@
 
 @media (max-width: 360px) {
   .app-links {
-    gap: 5px;
+    gap: 3px; /* Further reduce gap for very small screens */
   }
 
   .App-link {

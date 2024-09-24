@@ -79,7 +79,7 @@ function App() {
             </a>
             <a
               className="App-link"
-              href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic&gl=cn"
+              href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic"
               target="_blank"
               rel="noopener noreferrer"
             >

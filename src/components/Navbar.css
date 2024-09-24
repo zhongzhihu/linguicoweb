@@ -1,32 +1,39 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
   background-color: #282c34;
   color: white;
-  height: 60px; /* Adjust this value to match your previous navbar height */
+  height: 60px;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
+  margin-right: 2rem;
 }
 
 .nav-logo img {
-  height: 40px; /* Adjust this value to match your previous logo size */
+  height: 40px;
   width: auto;
 }
 
 .nav-items {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .nav-items a {
   color: white;
   text-decoration: none;
   font-size: 1rem;
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-items a:hover {
+  color: #2d5be5; /* Change to blue on hover */
 }
 
 .nav-toggle {
@@ -34,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
   .nav-items {
     display: none;
   }
@@ -42,7 +53,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 60px; /* Should match the navbar height */
+    top: 60px;
     left: 0;
     width: 100%;
     background-color: #282c34;
