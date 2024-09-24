@@ -5,11 +5,6 @@ import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
 import swissMade from "./SwissMadeDark.png";
 import screenshot1 from "./screenshot1.png";
-import screenshot2 from "./screenshot2.png";
-import screenshot3 from "./screenshot3.png";
-import screenshot4 from "./screenshot4.png";
-import screenshot5 from "./screenshot5.png";
-import screenshot6 from "./screenshot6.png";
 import derdiedas from "./der-die-das.gif";
 import CustomerReviews from "./CustomerReviews";
 
@@ -60,55 +55,47 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <h1>Learn German for free with Linguico</h1>
-        <p className="App-small-text App-margin-small">
-          Linguico is designed to address shortcomings in other language apps
-          like Duolingo, Babbel, etc. <br />
-          Download Linguico on the App Store and Google Play to improve your
-          German today!
-        </p>
-        <div className="app-links">
-          <a
-            className="App-link"
-            href="https://apps.apple.com/us/app/id6578450704"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={appStoreButton}
-              alt="Download on the App Store"
-              className="App-button"
-            />
-          </a>
-          <a
-            className="App-link"
-            href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic&gl=cn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={googlePlayButton}
-              alt="Get it on Google Play"
-              className="App-button App-button-play"
-            />
-          </a>
-          <div className="App-link">
-            <img
-              src={swissMade}
-              alt="Swiss Made"
-              className="Swiss-made-button"
-            />
+        <div className="App-content">
+          <h1>Learn German for free with Linguico</h1>
+          <p className="App-small-text App-margin-small">
+            Linguico is designed to address shortcomings in other language apps
+            like Duolingo, Babbel, etc. <br />
+            Download Linguico on the App Store and Google Play to improve your
+            German today!
+          </p>
+          <div className="app-links">
+            <a
+              className="App-link"
+              href="https://apps.apple.com/us/app/id6578450704"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={appStoreButton}
+                alt="Download on the App Store"
+                className="App-button"
+              />
+            </a>
+            <a
+              className="App-link"
+              href="https://play.google.com/store/apps/details?id=com.linguistic.Linguistic&gl=cn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={googlePlayButton}
+                alt="Get it on Google Play"
+                className="App-button App-button-play"
+              />
+            </a>
+            <div className="App-link">
+              <img
+                src={swissMade}
+                alt="Swiss Made"
+                className="Swiss-made-button"
+              />
+            </div>
           </div>
-        </div>
-        <div className="screenshots">
-          <img src={screenshot1} alt="Screenshot 1" className="Screenshot" />
-          <img src={screenshot2} alt="Screenshot 2" className="Screenshot" />
-          <img src={screenshot3} alt="Screenshot 3" className="Screenshot" />
-          <img src={screenshot4} alt="Screenshot 4" className="Screenshot" />
-          <img src={screenshot5} alt="Screenshot 5" className="Screenshot" />
-          {isSwissUser && (
-            <img src={screenshot6} alt="Screenshot 6" className="Screenshot" />
-          )}
         </div>
       </header>
 

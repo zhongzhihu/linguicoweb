@@ -12,19 +12,24 @@
     --image-scale: 0.35; /* Adjust this value to decrease size on mobile */
   }
 }
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: auto; /* Changed from 100vh to auto */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Changed from center to flex-start */
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px;
+  padding: 60px 20px; /* Increased padding to add more vertical space */
   width: 100%;
   box-sizing: border-box;
+}
+
+/* Add this new class for additional margin if needed */
+.App-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .App-logo {
@@ -38,17 +43,6 @@
 .responsive-image {
   width: calc(100% * var(--image-scale));
   height: auto;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 20px;
 }
 
 .app-links {
