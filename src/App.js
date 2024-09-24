@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import axios from "axios";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
 import swissMade from "./SwissMadeDark.png";
@@ -51,9 +53,8 @@ function App() {
     }
   }, []);
 
-  return (
-    <div className="App">
-      <Navbar />
+  const Home = () => (
+    <>
       <header className="App-header">
         <div className="App-content">
           <h1>Learn German for free with Linguico</h1>
@@ -148,11 +149,24 @@ function App() {
               </ul>
             </div>
           </div>
-        </div>
+        </div>{" "}
       </section>
 
       <CustomerReviews />
-    </div>
+    </>
+  );
+
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* Add other routes as needed */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

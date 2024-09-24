@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import linguicoLogo from "../linguicoLogo.png";
 import "./Navbar.css";
 
@@ -7,28 +8,19 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-mobile-section">
-          <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div className="navbar-brand">
-            <img
-              src={linguicoLogo}
-              alt="Linguico Logo"
-              className="navbar-logo"
-            />
-          </div>
-        </div>
-        <div className={`navbar-links ${isOpen ? "active" : ""}`}>
-          <a href="#home">Home</a>
-          <a href="#blog">Blog</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
+      <div className="nav-logo">
+        <img src={linguicoLogo} alt="Linguico Logo" />
+      </div>
+      <div className={`nav-items ${isOpen && "open"}`}>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        {/* Add other navigation items as needed */}
+      </div>
+      <div
+        className={`nav-toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="bar"></div>
       </div>
     </nav>
   );
