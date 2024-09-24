@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "./components/Navbar";
-import logo from "./linguicoLogo.png";
 import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
 import swissMade from "./SwissMadeDark.png";
