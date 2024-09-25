@@ -6,6 +6,7 @@ import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
 import swissMade from "./SwissMadeDark.png";
 import screenshot1 from "./screenshot1.png";
+import Screenshots from "./components/Screenshots";
 import derdiedas from "./der-die-das.gif";
 import CustomerReviews from "./CustomerReviews";
 import Contact from "./components/Contact";
@@ -122,6 +123,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/screenshots" element={<Screenshots />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
