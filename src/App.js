@@ -5,7 +5,7 @@ import About from "./components/About";
 import appStoreButton from "./download-app-store-black.svg";
 import googlePlayButton from "./download-play-store.png";
 import swissMade from "./SwissMadeDark.png";
-import screenshot1 from "./screenshot1.png";
+import flashcard from "./flashcard-anki-german.gif";
 import Screenshots from "./components/Screenshots";
 import derdiedas from "./der-die-das.gif";
 import CustomerReviews from "./CustomerReviews";
@@ -65,7 +65,7 @@ function App() {
         <h2>Discover Linguico's Top Features</h2>
         <div className="feature-container">
           <div className="feature-box">
-            <img src={screenshot1} alt="Feature 1" className="feature-image" />
+            <img src={flashcard} alt="Feature 1" className="feature-image" />
             <div className="feature-text">
               <h3>Learn German with Smart Flashcards</h3>
               <ul>
