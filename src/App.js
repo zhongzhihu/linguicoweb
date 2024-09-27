@@ -9,6 +9,7 @@ import flashcard from "./flashcard-anki-german.gif";
 import Screenshots from "./components/Screenshots";
 import derdiedas from "./der-die-das.gif";
 import germanprepositions from "./german-prepositions.gif";
+import verbConjugations from "./german-verb-conjugations.png";
 
 import CustomerReviews from "./CustomerReviews";
 import Contact from "./components/Contact";
@@ -145,21 +146,30 @@ function App() {
               </div>
             </div>
 
-            {/* Placeholder for potential future Feature 4 */}
-            {/* 
             <div className="feature-box">
-              <img src={feature4gif} alt="Feature 4" className="feature-image" />
+              <img
+                src={verbConjugations}
+                alt="Feature 4"
+                className="feature-image"
+              />
               <div className="feature-text">
-                <h3>Future Feature 4</h3>
+                <h3>Grammar Summary Overviews</h3>
                 <ul>
-                  <li><strong>Placeholder 1:</strong> Description for future feature</li>
-                  <li><strong>Placeholder 2:</strong> Another description</li>
-                  <li><strong>Placeholder 3:</strong> Yet another description</li>
-                  <li><strong>Placeholder 4:</strong> Final description</li>
+                  <li>
+                    <strong>Verb Conjugations:</strong> Review regular and
+                    irregular verb endings.
+                  </li>
+                  <li>
+                    <strong>Cases:</strong> Nominativ, Genitiv, Dativ, and
+                    Akkusativ tables at your fingertips.
+                  </li>
+                  <li>
+                    <strong>Tips & Tricks:</strong> Learn the endings that
+                    indicate der, die, and das with a handy summary.
+                  </li>
                 </ul>
               </div>
             </div>
-            */}
           </div>
         </div>
       </section>
@@ -167,8 +177,6 @@ function App() {
       <CustomerReviews />
     </>
   );
-
-  // ... (rest of the component remains unchanged)
 
   return (
     <Router>
