@@ -104,13 +104,12 @@ function App() {
                   <li>
                     <strong>In-depth grammar exercises</strong>: Practice
                     prepositions, cases, conjugations and more with over 500
-                    carefully crafted exercises.
+                    exercises.
                   </li>
                   <li>
                     <strong>With comprehensive explanations</strong>: Learn
                     which prepositions are correct, when to use Dativ versus
-                    Akkusativ, and how to apply grammar rules in real-world
-                    contexts.
+                    Akkusativ, and how to apply grammar rules.
                   </li>
                   <li>
                     <strong>
