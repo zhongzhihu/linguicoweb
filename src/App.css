@@ -10,25 +10,24 @@
 
 @media (max-width: 768px) {
   :root {
-    --image-scale: 0.35; /* Adjust this value to decrease size on mobile */
+    --image-scale: 0.35;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: auto; /* Changed from 100vh to auto */
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Changed from center to flex-start */
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0px 20px; /* Increased padding to add more vertical space */
+  padding: 0px 20px;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* Add this new class for additional margin if needed */
 .App-content {
   margin-top: 0px;
   margin-bottom: 40px;
@@ -41,7 +40,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 15px;
-
   margin-top: 20px;
   padding: 0 10px;
 }
@@ -90,7 +88,7 @@
 
 .Apple-style-section h2 {
   font-size: 1.8rem;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -112,20 +110,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 60px; /* Increased from 40px to 60px */
+  margin-bottom: 60px;
   width: 100%;
+  padding: 0 20px;
 }
 
-/* Add this new rule to create space between feature boxes in the same column */
 .feature-column .feature-box:not(:last-child) {
-  margin-bottom: 80px; /* This creates extra space between feature boxes in the same column */
+  margin-bottom: 80px;
 }
 
 .feature-image {
   width: 80%;
   max-width: 300px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .feature-text {
@@ -152,7 +150,7 @@
 
 @media (max-width: 360px) {
   .app-links {
-    gap: 3px; /* Further reduce gap for very small screens */
+    gap: 3px;
   }
 
   .App-link {
@@ -174,30 +172,37 @@
     flex-wrap: nowrap;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 5%;
+  }
+
+  .feature-column {
+    flex: 0 1 47.5%;
+    padding: 0;
   }
 
   .feature-box {
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 60px; /* Increased from 40px to 60px to match mobile view */
+    margin-bottom: 80px;
+    padding: 0;
   }
 
-  /* Add this new rule to create space between feature boxes in the same column on desktop */
   .feature-column .feature-box:not(:last-child) {
-    margin-bottom: 100px; /* This creates extra space between feature boxes in the same column on desktop */
+    margin-bottom: 100px;
   }
 
   .feature-image {
     width: 40%;
-    max-width: 200px;
-    margin-right: 15px;
+    max-width: 220px;
+    margin-right: 0;
     margin-bottom: 0;
   }
 
   .feature-text {
     width: 60%;
     max-width: none;
+    padding-left: 5%;
   }
 
   .feature-text h3 {
@@ -214,14 +219,24 @@
 @media (min-width: 1440px) {
   .feature-container {
     max-width: 1400px;
+    gap: 7%;
+  }
+
+  .feature-column {
+    flex: 0 1 46.5%;
   }
 
   .feature-box {
-    padding: 0 20px;
+    margin-bottom: 100px;
   }
 
   .feature-image {
-    max-width: 250px;
+    max-width: 300px;
+  }
+
+  .feature-text {
+    width: 65%;
+    padding-left: 7%;
   }
 
   .feature-text h3 {

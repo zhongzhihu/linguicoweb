@@ -29,6 +29,7 @@ const countryCodeMap = {
   Spain: "es",
   "Sri Lanka": "lk",
   Switzerland: "ch",
+  Sweden: "se",
   Thailand: "th",
   Ukraine: "ua",
   "United Kingdom": "gb",

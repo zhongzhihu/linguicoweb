@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "great app",
+    text: "im an aspiring german learner and i found this app extremely helpful!",
+    username: "byyungg",
+    date: "Sep 25, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Good app",
+    text: "Very good app for learning german",
+    username: "Bob4254mac",
+    date: "Sep 24, 2024",
+    rating: 5,
+    country: "Sweden",
+  },
+  {
     title: "Odlicna",
     text: "Sviđa mi se korišćenje aplikacije za unapređenje mog znanja nemačkih reči i gramatike. Aplikacija detaljno obrađuje gramatičke teme kao što su predlozi i nemački članci 'der, die, das'.",
     username: "AkrabDng",
