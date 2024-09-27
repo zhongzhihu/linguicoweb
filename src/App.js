@@ -8,6 +8,8 @@ import swissMade from "./SwissMadeDark.png";
 import flashcard from "./flashcard-anki-german.gif";
 import Screenshots from "./components/Screenshots";
 import derdiedas from "./der-die-das.gif";
+import germanprepositions from "./german-prepositions.gif";
+
 import CustomerReviews from "./CustomerReviews";
 import Contact from "./components/Contact";
 import "./App.css";
@@ -64,58 +66,110 @@ function App() {
       <section className="Apple-style-section">
         <h2>Discover Linguico's Top Features</h2>
         <div className="feature-container">
-          <div className="feature-box">
-            <img src={flashcard} alt="Feature 1" className="feature-image" />
-            <div className="feature-text">
-              <h3>Learn German with Smart Flashcards</h3>
-              <ul>
-                <li>
-                  <strong>High-Quality Built-in Flashcards</strong>: Learn more
-                  efficiently than with public Anki decks
-                </li>
-                <li>
-                  <strong>Rich Content</strong>: Grammar info, irregular forms,
-                  example sentences, and audio included
-                </li>
-                <li>
-                  <strong>Frequency-Based Learning</strong>: Focus on the most
-                  useful words first
-                </li>
-                <li>
-                  <strong>Official Wordlists</strong>: Choose from Goethe A1,
-                  A2, or B1 levels
-                </li>
-              </ul>
+          <div className="feature-column">
+            <div className="feature-box">
+              <img src={flashcard} alt="Feature 1" className="feature-image" />
+              <div className="feature-text">
+                <h3>Learn German with Smart Flashcards</h3>
+                <ul>
+                  <li>
+                    <strong>High-Quality Built-in Flashcards</strong>: Learn
+                    more efficiently than with public Anki decks
+                  </li>
+                  <li>
+                    <strong>Rich Content</strong>: Grammar info, irregular
+                    forms, example sentences, and audio included
+                  </li>
+                  <li>
+                    <strong>Frequency-Based Learning</strong>: Focus on the most
+                    useful words first
+                  </li>
+                  <li>
+                    <strong>Official Wordlists</strong>: Choose from Goethe A1,
+                    A2, or B1 levels
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="feature-box">
+              <img
+                src={germanprepositions}
+                alt="Feature 3"
+                className="feature-image"
+              />
+              <div className="feature-text">
+                <h3>Practice prepositions and grammar</h3>
+                <ul>
+                  <li>
+                    <strong>In-depth grammar exercises</strong>: Practice
+                    prepositions, cases, conjugations and more with over 500
+                    carefully crafted exercises.
+                  </li>
+                  <li>
+                    <strong>With comprehensive explanations</strong>: Learn
+                    which prepositions are correct, when to use Dativ versus
+                    Akkusativ, and how to apply grammar rules in real-world
+                    contexts.
+                  </li>
+                  <li>
+                    <strong>
+                      The only app that provides an in-depth focus on grammar
+                    </strong>
+                    : Learn German the way it's taught in school.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div className="feature-box">
-            <img src={derdiedas} alt="Feature 2" className="feature-image" />
-            <div className="feature-text">
-              <h3>Practice der, die, das</h3>
-              <ul>
-                <li>
-                  <strong>Engage with fun Exercises:</strong> Guess the correct
-                  article der, die, das for German nouns
-                </li>
-                <li>
-                  <strong>Reinforce Pattern Recognition:</strong> Learn to
-                  identify articles through hints provided instantly after
-                  selecting the article
-                </li>
-                <li>
-                  <strong>Progress at your own pace:</strong> Practice with a
-                  wide range of nouns, from frequent to less frequent words
-                </li>
-              </ul>
+          <div className="feature-column">
+            <div className="feature-box">
+              <img src={derdiedas} alt="Feature 2" className="feature-image" />
+              <div className="feature-text">
+                <h3>Practice der, die, das</h3>
+                <ul>
+                  <li>
+                    <strong>Engage with fun Exercises:</strong> Guess the
+                    correct article der, die, das for German nouns
+                  </li>
+                  <li>
+                    <strong>Reinforce Pattern Recognition:</strong> Learn to
+                    identify articles through hints provided instantly after
+                    selecting the article
+                  </li>
+                  <li>
+                    <strong>Progress at your own pace:</strong> Practice with a
+                    wide range of nouns, from frequent to less frequent words
+                  </li>
+                </ul>
+              </div>
             </div>
+
+            {/* Placeholder for potential future Feature 4 */}
+            {/* 
+            <div className="feature-box">
+              <img src={feature4gif} alt="Feature 4" className="feature-image" />
+              <div className="feature-text">
+                <h3>Future Feature 4</h3>
+                <ul>
+                  <li><strong>Placeholder 1:</strong> Description for future feature</li>
+                  <li><strong>Placeholder 2:</strong> Another description</li>
+                  <li><strong>Placeholder 3:</strong> Yet another description</li>
+                  <li><strong>Placeholder 4:</strong> Final description</li>
+                </ul>
+              </div>
+            </div>
+            */}
           </div>
-        </div>{" "}
+        </div>
       </section>
 
       <CustomerReviews />
     </>
   );
+
+  // ... (rest of the component remains unchanged)
 
   return (
     <Router>

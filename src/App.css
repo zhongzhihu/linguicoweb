@@ -102,12 +102,23 @@
   margin: 0 auto;
 }
 
+.feature-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .feature-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px; /* Increased from 40px to 60px */
   width: 100%;
+}
+
+/* Add this new rule to create space between feature boxes in the same column */
+.feature-column .feature-box:not(:last-child) {
+  margin-bottom: 80px; /* This creates extra space between feature boxes in the same column */
 }
 
 .feature-image {
@@ -166,12 +177,15 @@
   }
 
   .feature-box {
-    flex: 0 1 50%;
-    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 10px;
+    margin-bottom: 60px; /* Increased from 40px to 60px to match mobile view */
+  }
+
+  /* Add this new rule to create space between feature boxes in the same column on desktop */
+  .feature-column .feature-box:not(:last-child) {
+    margin-bottom: 100px; /* This creates extra space between feature boxes in the same column on desktop */
   }
 
   .feature-image {
