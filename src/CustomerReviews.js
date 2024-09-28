@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { reviewsData } from "./reviewsData";
 import appStoreIcon from "./app-store-icon.png";
@@ -42,28 +42,31 @@ const getCountryCode = (countryName) => {
 };
 
 const CustomerReviews = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const savedIndex = localStorage.getItem("reviewIndex");
+    return savedIndex ? parseInt(savedIndex, 10) : 0;
+  });
   const [visibleReviews, setVisibleReviews] = useState(5);
   const [flagUrls, setFlagUrls] = useState({});
   const averageRating =
     reviewsData.reduce((sum, review) => sum + review.rating, 0) /
     reviewsData.length;
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 1200) {
-        setVisibleReviews(5);
-      } else if (window.innerWidth >= 768) {
-        setVisibleReviews(3);
-      } else {
-        setVisibleReviews(1);
-      }
-    };
+  const handleResize = useCallback(() => {
+    if (window.innerWidth >= 1200) {
+      setVisibleReviews(5);
+    } else if (window.innerWidth >= 768) {
+      setVisibleReviews(3);
+    } else {
+      setVisibleReviews(1);
+    }
+  }, []);
 
+  useEffect(() => {
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [handleResize]);
 
   useEffect(() => {
     const loadFlags = async () => {
@@ -82,23 +85,24 @@ const CustomerReviews = () => {
     loadFlags();
   }, []);
 
-  const nextReview = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex + visibleReviews) % reviewsData.length
-    );
-  };
+  useEffect(() => {
+    localStorage.setItem("reviewIndex", currentIndex.toString());
+  }, [currentIndex]);
 
-  const prevReview = () => {
-    setCurrentIndex(
-      (prevIndex) =>
-        (prevIndex - visibleReviews + reviewsData.length) % reviewsData.length
-    );
-  };
+  const nextReview = useCallback(() => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsData.length);
+  }, []);
 
-  const displayedReviews = reviewsData.slice(
-    currentIndex,
-    currentIndex + visibleReviews
-  );
+  const prevReview = useCallback(() => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + reviewsData.length) % reviewsData.length
+    );
+  }, []);
+
+  const displayedReviews = [...Array(visibleReviews)].map((_, index) => {
+    const reviewIndex = (currentIndex + index) % reviewsData.length;
+    return reviewsData[reviewIndex];
+  });
 
   return (
     <div className="customer-reviews">
@@ -148,7 +152,7 @@ const CustomerReviews = () => {
         </button>
         <div className="reviews-container">
           {displayedReviews.map((review, index) => (
-            <div key={currentIndex + index} className="review-card">
+            <div key={`${currentIndex}-${index}`} className="review-card">
               <div className="review-header">
                 <div className="star-rating">
                   {[...Array(5)].map((_, i) => (
@@ -207,4 +211,4 @@ const CustomerReviews = () => {
   );
 };
 
-export default CustomerReviews;
+export default React.memo(CustomerReviews);
