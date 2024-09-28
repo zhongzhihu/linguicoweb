@@ -24,7 +24,7 @@ function App() {
       setCurrentImage((prevImage) =>
         prevImage === verbConjugations ? derdiedashints : verbConjugations
       );
-    }, 3000);
+    }, 8000);
 
     return () => clearInterval(intervalId);
   }, []);
