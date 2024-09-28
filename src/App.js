@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -10,13 +10,25 @@ import Screenshots from "./components/Screenshots";
 import derdiedas from "./der-die-das.gif";
 import germanprepositions from "./german-prepositions.gif";
 import verbConjugations from "./german-verb-conjugations.png";
-
+import derdiedashints from "./der-die-das-hints.png";
 import CustomerReviews from "./CustomerReviews";
 import Contact from "./components/Contact";
 import "./App.css";
 import "./CustomerReviews.css";
 
 function App() {
+  const [currentImage, setCurrentImage] = useState(verbConjugations);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImage((prevImage) =>
+        prevImage === verbConjugations ? derdiedashints : verbConjugations
+      );
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   const Home = () => (
     <>
       <header className="App-header">
@@ -148,26 +160,50 @@ function App() {
 
             <div className="feature-box">
               <img
-                src={verbConjugations}
-                alt="Feature 4"
+                src={currentImage}
+                alt="Alternating Feature"
                 className="feature-image"
               />
               <div className="feature-text">
-                <h3>Grammar Summary Overviews</h3>
-                <ul>
-                  <li>
-                    <strong>Verb Conjugations:</strong> Review regular and
-                    irregular verb endings.
-                  </li>
-                  <li>
-                    <strong>Cases:</strong> Nominativ, Genitiv, Dativ, and
-                    Akkusativ tables at your fingertips.
-                  </li>
-                  <li>
-                    <strong>Tips & Tricks:</strong> Learn the endings that
-                    indicate der, die, and das with a handy summary.
-                  </li>
-                </ul>
+                {currentImage === verbConjugations ? (
+                  <>
+                    <h3>Grammar Summary Overviews</h3>
+                    <ul>
+                      <li>
+                        <strong>Verb Conjugations:</strong> Review regular and
+                        irregular verb endings.
+                      </li>
+                      <li>
+                        <strong>Cases:</strong> Nominativ, Genitiv, Dativ, and
+                        Akkusativ tables at your fingertips.
+                      </li>
+                      <li>
+                        <strong>Tips & Tricks:</strong> Learn the endings that
+                        indicate der, die, and das with a handy summary.
+                      </li>
+                    </ul>
+                  </>
+                ) : (
+                  <>
+                    <h3>Practice der, die, das</h3>
+                    <ul>
+                      <li>
+                        <strong>Engage with fun Exercises:</strong> Guess the
+                        correct article der, die, das for German nouns
+                      </li>
+                      <li>
+                        <strong>Reinforce Pattern Recognition:</strong> Learn to
+                        identify articles through hints provided instantly after
+                        selecting the article
+                      </li>
+                      <li>
+                        <strong>Progress at your own pace:</strong> Practice
+                        with a wide range of nouns, from frequent to less
+                        frequent words
+                      </li>
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
           </div>
