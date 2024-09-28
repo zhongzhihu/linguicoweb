@@ -24,7 +24,7 @@ function App() {
       setCurrentImage((prevImage) =>
         prevImage === verbConjugations ? derdiedashints : verbConjugations
       );
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -165,45 +165,21 @@ function App() {
                 className="feature-image"
               />
               <div className="feature-text">
-                {currentImage === verbConjugations ? (
-                  <>
-                    <h3>Grammar Summary Overviews</h3>
-                    <ul>
-                      <li>
-                        <strong>Verb Conjugations:</strong> Review regular and
-                        irregular verb endings.
-                      </li>
-                      <li>
-                        <strong>Cases:</strong> Nominativ, Genitiv, Dativ, and
-                        Akkusativ tables at your fingertips.
-                      </li>
-                      <li>
-                        <strong>Tips & Tricks:</strong> Learn the endings that
-                        indicate der, die, and das with a handy summary.
-                      </li>
-                    </ul>
-                  </>
-                ) : (
-                  <>
-                    <h3>Practice der, die, das</h3>
-                    <ul>
-                      <li>
-                        <strong>Engage with fun Exercises:</strong> Guess the
-                        correct article der, die, das for German nouns
-                      </li>
-                      <li>
-                        <strong>Reinforce Pattern Recognition:</strong> Learn to
-                        identify articles through hints provided instantly after
-                        selecting the article
-                      </li>
-                      <li>
-                        <strong>Progress at your own pace:</strong> Practice
-                        with a wide range of nouns, from frequent to less
-                        frequent words
-                      </li>
-                    </ul>
-                  </>
-                )}
+                <h3>Grammar Summary Overviews</h3>
+                <ul>
+                  <li>
+                    <strong>Verb Conjugations:</strong> Review regular and
+                    irregular verb endings.
+                  </li>
+                  <li>
+                    <strong>Cases:</strong> Nominativ, Genitiv, Dativ, and
+                    Akkusativ tables at your fingertips.
+                  </li>
+                  <li>
+                    <strong>Tips & Tricks:</strong> Learn the endings that
+                    indicate der, die, and das with a handy summary.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
