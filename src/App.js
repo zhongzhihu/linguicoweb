@@ -18,6 +18,11 @@ import "./CustomerReviews.css";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(verbConjugations);
+  // Add Google Analytics tracking script
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-WYDEJ330HW";
+  script.async = true;
+  document.body.appendChild(script);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
