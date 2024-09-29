@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Practicing German just like in school",
+    text: "This app works great for learning German vocabulary with Anki style flashcards and for practicing German grammar just like in a school.",
+    username: "Naomindlander",
+    date: "Sep 28, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great apps for learning German language",
+    text: "This app helps me a lot to learn about German language, thank you",
+    username: "apipgaming21",
+    date: "Sep 27, 2024",
+    rating: 5,
+    country: "Indonesia",
+  },
+  {
     title: "great app",
     text: "im an aspiring german learner and i found this app extremely helpful!",
     username: "byyungg",

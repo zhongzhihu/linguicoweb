@@ -17,6 +17,7 @@ const countryCodeMap = {
   "Hong Kong": "hk",
   Hungary: "hu",
   India: "in",
+  Indonesia: "id",
   Ireland: "ie",
   Italy: "it",
   Latvia: "lv",
