@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Top",
+    text: "Application très efficace pour apprendre les mots allemands avec les flashcards Anki. L'application propose de nombreux exercices sur de nombreux sujets de grammaire allemande.",
+    username: "Swordse",
+    date: "Sep 28, 2024",
+    rating: 5,
+    country: "France",
+  },
+  {
+    title: "Exactly what I was looking for",
+    text: "Good Anki flashcards for learning 15000 German words. The only app for learning German grammar just like in a school book.",
+    username: "ItsBeacon",
+    date: "Sep 28, 2024",
+    rating: 5,
+    country: "Germany",
+  },
+  {
+    title: "Fantastic app for German words and grammar",
+    text: "I have been using Duolingo, but at some stage, I couldn't further improve my German with it. Linguico is the only app that focuses on German grammar. The Anki flashcards for learning vocabulary are also the best I have seen.",
+    username: "mario495",
+    date: "Sep 28, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Practicing German just like in school",
     text: "This app works great for learning German vocabulary with Anki style flashcards and for practicing German grammar just like in a school.",
     username: "Naomindlander",
