@@ -99,8 +99,8 @@ function App() {
                     forms, example sentences, and audio included
                   </li>
                   <li>
-                    <strong>Frequency-Based Learning</strong>: Focus on the most
-                    useful words first
+                    <strong>Flashcards for 15000 German words</strong>: Ranked
+                    by word frequency, focusing on the most useful words first
                   </li>
                   <li>
                     <strong>Official Wordlists</strong>: Choose from Goethe A1,
