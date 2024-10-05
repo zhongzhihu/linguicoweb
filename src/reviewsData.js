@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Super zum Lernen!",
+    text: "Endlich einfach Deutsch lernen, super App!",
+    username: "BorisCohen",
+    date: "Oct 4, 2024",
+    rating: 5,
+    country: "Austria",
+  },
+  {
+    title: "Simple way to learn",
+    text: "Had fun learning German.",
+    username: "Evivz",
+    date: "Oct 2, 2024",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "독일어 학습 좋네요!!",
+    text: "독일어 단어 학습과 재미있는 문법 연습을 위한 아주 좋은 앱입니다.",
+    username: "SNFZO",
+    date: "Sep 29, 2024",
+    rating: 5,
+    country: "Korea, Republic of",
+  },
+  {
     title: "Top",
     text: "Application très efficace pour apprendre les mots allemands avec les flashcards Anki. L'application propose de nombreux exercices sur de nombreux sujets de grammaire allemande.",
     username: "Swordse",
