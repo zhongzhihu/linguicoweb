@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Favorite 👏🏼👏🏼👏🏼",
+    text: "Very practical to practise German. Effective on the vocabulary and articles",
+    username: "theunlimited'",
+    date: "Oct 7, 2024",
+    rating: 5,
+    country: "Netherlands",
+  },
+  {
     title: "Good app that focusses on German grammar",
     text: "I am taking a German course. My German teacher recommended that we use this app because it is the only German learning app that focuses on grammar topics. I agree.",
     username: "Chris94ha",
