@@ -34,6 +34,7 @@ const countryCodeMap = {
   Switzerland: "ch",
   Sweden: "se",
   Thailand: "th",
+  Türkiye: "tr",
   Ukraine: "ua",
   "United Kingdom": "gb",
   "United States": "us",
