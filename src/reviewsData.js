@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Effective app for truly learning German",
+    text: "I am taking a German course, and this is the only app that has been recommended by the teacher. This app effectively replaces both Duolingo and Anki. It is the only app that focuses on both German grammar and vocabulary. It goes into great depth on grammar topics, just like a school book.",
+    username: "mbt101",
+    date: "Oct 8, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "Great for learning German",
+    text: "Perfect app for learning German words. Very good for learning German grammar with theory explanations and exercises.",
+    username: "Puska19",
+    date: "Oct 8, 2024",
+    rating: 5,
+    country: "Hungary",
+  },
+  {
+    title: "Really nice app",
+    text: "Very useful when you are struggling with the German language. I helps always having a fresh content.",
+    username: "AhmedMoustafa92",
+    date: "Oct 7, 2024",
+    rating: 5,
+    country: "Germany",
+  },
+  {
     title: "Favorite 👏🏼👏🏼👏🏼",
     text: "Very practical to practise German. Effective on the vocabulary and articles",
     username: "theunlimited'",
