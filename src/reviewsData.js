@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Sehr tolle app",
+    text: "Die App hilft meiner Freundin sehr Deutsch zu lernen und verstehen. Sie ist sehr zufrieden und sie macht bessere Fortschritte als bei Duolingo. Aufjedenfall zu empfehlen!",
+    username: "Ninothefino",
+    date: "Oct 17, 2024",
+    rating: 5,
+    country: "Austria",
+  },
+  {
+    title: "Easy to learn German",
+    text: "Had a great time using it. I LOVE that there’s a dictionary.",
+    username: "Marlowe Clarke",
+    date: "Oct 17, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great companion app for language learners!",
+    text: "Perfect for focusing on grammar, especially for German. Pairs well with apps like Duolingo to enhance your learning experience.",
+    username: "MrPansson",
+    date: "Oct 17, 2024",
+    rating: 5,
+    country: "Sweden",
+  },
+  {
     title: "Amazing app considering it’s free!!!",
     text: "I really loved the gender quizzes for nouns but the grammar lessons themselves are great too!",
     username: "Rick Slickerz",
