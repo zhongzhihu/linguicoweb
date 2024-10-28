@@ -95,14 +95,24 @@ const CustomerReviews = () => {
   }, [currentIndex]);
 
   const nextReview = useCallback(() => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsData.length);
+    setCurrentIndex((prevIndex) => {
+      // Calculate the next index by adding 5
+      const nextIndex = prevIndex + 5;
+      // If we would go past the end, wrap around to the beginning
+      return nextIndex >= reviewsData.length ? 0 : nextIndex;
+    });
   }, []);
 
   const prevReview = useCallback(() => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + reviewsData.length) % reviewsData.length
-    );
-  }, []);
+    setCurrentIndex((prevIndex) => {
+      // Calculate the previous index by subtracting 5
+      const prevIndex5 = prevIndex - 5;
+      // If we would go before the start, wrap around to the end
+      return prevIndex5 < 0
+        ? Math.max(reviewsData.length - visibleReviews, 0)
+        : prevIndex5;
+    });
+  }, [visibleReviews]);
 
   const displayedReviews = [...Array(visibleReviews)].map((_, index) => {
     const reviewIndex = (currentIndex + index) % reviewsData.length;
