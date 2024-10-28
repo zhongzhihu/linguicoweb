@@ -11,6 +11,7 @@ const countryCodeMap = {
   Brazil: "br",
   Canada: "ca",
   Croatia: "hr",
+  "Czech Republic": "cz",
   Finland: "fi",
   France: "fr",
   Germany: "de",
