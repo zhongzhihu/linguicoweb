@@ -46,16 +46,19 @@ const getCountryCode = (countryName) => {
   return countryCodeMap[countryName] || "us"; // Default to "us" if not found
 };
 
-const CustomerReviews = () => {
+const CustomerReviews = ({ customRating }) => {
   const [currentIndex, setCurrentIndex] = useState(() => {
     const savedIndex = localStorage.getItem("reviewIndex");
     return savedIndex ? parseInt(savedIndex, 10) : 0;
   });
   const [visibleReviews, setVisibleReviews] = useState(5);
   const [flagUrls, setFlagUrls] = useState({});
-  const averageRating =
+
+  const calculatedRating =
     reviewsData.reduce((sum, review) => sum + review.rating, 0) /
     reviewsData.length;
+  const displayedRating =
+    typeof customRating === "number" ? customRating : calculatedRating;
 
   const handleResize = useCallback(() => {
     if (window.innerWidth >= 1200) {
@@ -96,18 +99,14 @@ const CustomerReviews = () => {
 
   const nextReview = useCallback(() => {
     setCurrentIndex((prevIndex) => {
-      // Calculate the next index by adding 5
       const nextIndex = prevIndex + 5;
-      // If we would go past the end, wrap around to the beginning
       return nextIndex >= reviewsData.length ? 0 : nextIndex;
     });
   }, []);
 
   const prevReview = useCallback(() => {
     setCurrentIndex((prevIndex) => {
-      // Calculate the previous index by subtracting 5
       const prevIndex5 = prevIndex - 5;
-      // If we would go before the start, wrap around to the end
       return prevIndex5 < 0
         ? Math.max(reviewsData.length - visibleReviews, 0)
         : prevIndex5;
@@ -140,14 +139,16 @@ const CustomerReviews = () => {
           </h2>
           <div className="app-store-rating">
             <div className="rating-summary">
-              <span className="average-rating">{averageRating.toFixed(1)}</span>
+              <span className="average-rating">
+                {displayedRating.toFixed(1)}
+              </span>
               <span className="out-of">out of 5</span>
             </div>
             <div className="star-rating">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  fill={i < Math.round(averageRating) ? "#FFD700" : "none"}
+                  fill={i < Math.round(displayedRating) ? "#FFD700" : "none"}
                   stroke="#FFD700"
                   size={24}
                 />

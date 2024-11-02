@@ -191,7 +191,7 @@ function App() {
         </div>
       </section>
 
-      <CustomerReviews />
+      <CustomerReviews customRating={4.9} />
     </>
   );
 
