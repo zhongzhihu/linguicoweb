@@ -46,7 +46,7 @@ export const reviewsData = [
     date: "Oct 27, 2024",
     rating: 5,
     country: "India",
-  },p
+  },
   {
     title: "Super helpful",
     text: "Very handy for my beginner level",
