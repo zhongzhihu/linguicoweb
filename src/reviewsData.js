@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Great app for German",
+    text: "I was struggling with German for a while. This app is great to remember words and improve!",
+    username: "downloadLinkzy",
+    date: "Nov 15, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "Großartig",
+    text: "It’s amazing. The app is very simple and pleasant to use. There are no ads and it’s free and yet it offers so much. I’m truly thankful to the developer, amazing work!",
+    username: "Antares801",
+    date: "Nov 13, 2024",
+    rating: 5,
+    country: "Poland",
+  },
+  {
     title: "One of the best",
     text: "15000 word deck WITH gender practice WITH grammar lessons FOR FREE?! Legit one of the best German learning tools out there.",
     username: "jdhdjdhdhgd",
