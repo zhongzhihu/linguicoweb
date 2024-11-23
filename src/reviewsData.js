@@ -1,6 +1,6 @@
 export const reviewsData = [
   {
-    title: "Great app for German",
+    title: "Bra läromedel",
     text: "Bra app om man vill lära sig tyska. Enkelt att bara öppna appen och öva en stund. Också gott om förklaringar till grammatik osv.",
     username: "jekib",
     date: "Nov 21, 2024",
