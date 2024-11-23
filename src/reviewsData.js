@@ -1,6 +1,38 @@
 export const reviewsData = [
   {
     title: "Great app for German",
+    text: "Bra app om man vill lära sig tyska. Enkelt att bara öppna appen och öva en stund. Också gott om förklaringar till grammatik osv.",
+    username: "jekib",
+    date: "Nov 21, 2024",
+    rating: 5,
+    country: "Sweden",
+  },
+  {
+    title: "Effortlessly Learn German",
+    text: "Great app for mastering German! The flashcards and grammar exercises are top-notch. Highly recommend for anyone serious about learning German.",
+    username: "Shivam Pandey 659",
+    date: "Nov 20, 2024",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "Müthiş 👌🏻👌🏻👌🏻👌🏻👌🏻",
+    text: "Kullanımı çok kolay, arayüzü müthiş. Almanca öğrenem herkese tavsiye ederim 💞",
+    username: "TunaDev",
+    date: "Nov 18, 2024",
+    rating: 5,
+    country: "Türkiye",
+  },
+  {
+    title: "Beginner-Friendly",
+    text: "A simple and effective German learning app with an intuitive interface. It makes daily learning very accessible, and I can feel myself improving bit by bit.",
+    username: "SuperBigCat1",
+    date: "Nov 16, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great app for German",
     text: "I was struggling with German for a while. This app is great to remember words and improve!",
     username: "downloadLinkzy",
     date: "Nov 15, 2024",
