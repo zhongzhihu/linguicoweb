@@ -5,44 +5,51 @@ const About = () => {
   return (
     <div className="about-container">
       <h1>About Linguico</h1>
+
       <p>
-        Have you ever felt that your language learning app isn't meeting your
-        needs? That's exactly why we created Linguico. We're a small team in
-        Switzerland - who became frustrated with apps that weren't focusing on
-        truly useful vocabulary and comprehensive grammar. Linguico is our
-        solution to this problem. It's a free app designed to teach you what you
-        really need to learn German. Our goal is to help you learn relevant
-        vocabulary and practice grammar in depth. We believe this approach is
-        crucial for genuinely learning to speak German, rather than just
-        memorizing a few set of phrases.
+        Hi! I'm a data scientist based in Switzerland, and like many foreigners
+        there, I went through the journey of learning German. During this
+        process, I got frustrated with apps like Duolingo - they're fun, but
+        they weren't teaching me the words I actually needed in daily life. And
+        don't get me started on grammar... it felt like it was barely covered!
       </p>
+
       <p>
-        Our mission is to address these shortcomings and provide a
-        comprehensive, effective learning experience.
+        That's why I created Linguico. I wanted an app that would teach actually
+        useful vocabulary and properly explain grammar. As a data scientist, I
+        used web scraping to gather real-world German content and ranked words
+        by how frequently they're actually used. This means you'll learn the
+        vocabulary that matters, not random words about ducks wearing hats 😄.
       </p>
-      <h2>Our Philosophy</h2>
+
+      <h2>How It's Different</h2>
       <p>
-        At Linguico, we firmly believe that language courses are the most
-        effective way to learn German. Our app is designed to complement such
-        courses in the most efficient way possible, allowing you to focus on
-        learning relevant vocabulary and practice grammar topics and reinforce
-        your learning outside the classroom.
+        Linguico is completely free and has no ads. I built it as a passion
+        project - combining my love for data science with my experience learning
+        German. The app focuses on what mainstream language apps often miss:
+        practical vocabulary and in-depth grammar focus.
       </p>
+
+      <h2>What Makes It Work</h2>
       <p>
-        If you're already using other language learning apps like Duolingo,
-        Linguico serves as an excellent complementary tool — and for many
-        learners, it is even a preferred substitute.
+        The flashcard system isn't random - it's based on real data about which
+        German words are most commonly used. I analyzed tons of German content
+        to make sure you're learning vocabulary you'll actually use in
+        conversations, at work, or while reading.
+      </p>
+
+      <p>
+        While other apps might be great for getting started, Linguico is
+        designed to fill in the gaps and help you really understand German, not
+        just memorize phrases. It's perfect alongside language courses or other
+        apps - or even on its own if you want to focus on practical learning.
       </p>
 
       <h2>Future Plans</h2>
       <ul>
-        <li>
-          Expand language offerings for learning Spanish, French, and Dutch
-        </li>
-        <li>
-          Option to learn languages through our current website in addition to
-          the mobile app.
-        </li>
+        <li>Add Spanish, French, and Dutch learning options</li>
+        <li>Create a web version to complement the mobile app</li>
+        <li>Keep improving based on your feedback!</li>
       </ul>
     </div>
   );

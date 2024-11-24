@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Fantastic for German vocabulary",
+    text: "Great app. It’s free and it works great for learning German words and grammar.",
+    username: "FrogLoverFrog",
+    date: "Nov 22, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Bra läromedel",
     text: "Bra app om man vill lära sig tyska. Enkelt att bara öppna appen och öva en stund. Också gott om förklaringar till grammatik osv.",
     username: "jekib",

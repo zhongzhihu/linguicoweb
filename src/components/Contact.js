@@ -14,9 +14,7 @@ const Contact = () => {
       <ul>
         <li>
           Email:{" "}
-          <a href="mailto:zhdatascientist@gmail.com">
-            zhdatascientist@gmail.com
-          </a>
+          <a href="mailto:linguico.app@gmail.com">linguico.app@gmail.com</a>
         </li>
       </ul>
       <h2>Feedback</h2>
