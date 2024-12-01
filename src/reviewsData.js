@@ -1,5 +1,37 @@
 export const reviewsData = [
   {
+    title: "Easy and effective",
+    text: "Nice interface and intuitive learning - would definitely recommend for first-time German students",
+    username: "HankP94",
+    date: "Nov 29, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "Great way to learn German vocabulary",
+    text: "The German flashcards are of really good quality and very effective for improving my German proficiency.",
+    username: "Samanta0071",
+    date: "Nov 25, 2024",
+    rating: 5,
+    country: "Ukraine",
+  },
+  {
+    title: "Simple, clear and very helpful",
+    text: "German is one of the hardest languages to learn. I tried to learn it myself in the past but didnt really succeed. But this app has made it a lot easier with how clearly presented everything is as well as explanations, tests and application scenarios. Highly recommend for those having difficulty learning German.",
+    username: "paddyfields888",
+    date: "Nov 25, 2024",
+    rating: 5,
+    country: "Singapore",
+  },
+  {
+    title: "Helpful app",
+    text: "Easy to use on the go, learnt some great new German words and phrases",
+    username: "h4z1994",
+    date: "Nov 23, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Fantastic for German vocabulary",
     text: "Great app. It’s free and it works great for learning German words and grammar.",
     username: "FrogLoverFrog",
