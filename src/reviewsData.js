@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Superbe concept",
+    text: "L’application est très bien réalisée et facile à prendre en main, les lessons hyper complètes, très bien pensées avec un apprentissage graduel. Moi qui voulait avoir quelques notions avant un voyage dans le pays, l’app a été au rdv !",
+    username: "lau_fr",
+    date: "Dec 4, 2024",
+    rating: 5,
+    country: "France",
+  },
+  {
+    title: "Perfect for Learning German!",
+    text: "This app is fantastic for anyone learning German! The flashcards are well-organized, covering essential vocabulary and grammar. I love how interactive and intuitive the interface is—it makes learning fun and engaging. Highly recommend this app for beginners and advanced learners alike! 💪🇩🇪",
+    username: "Rkramv8",
+    date: "Dec 4, 2024",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "Great app",
+    text: "I improved my German by a lot using this app. Recommend it to beginners and mid level apprentice speakers. Great!",
+    username: "Danes888",
+    date: "Dec 2, 2024",
+    rating: 5,
+    country: "Germany",
+  },
+  {
     title: "Easy and effective",
     text: "Nice interface and intuitive learning - would definitely recommend for first-time German students",
     username: "HankP94",
