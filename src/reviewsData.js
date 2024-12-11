@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "An easy start to the German language",
+    text: "Provides a neat and contained way to pick up and practice German. There are multiple way to learn from the app, and easy for beginners to get into.",
+    username: "Jordan2048",
+    date: "Dec 10, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Superbe concept",
     text: "L’application est très bien réalisée et facile à prendre en main, les lessons hyper complètes, très bien pensées avec un apprentissage graduel. Moi qui voulait avoir quelques notions avant un voyage dans le pays, l’app a été au rdv !",
     username: "lau_fr",
