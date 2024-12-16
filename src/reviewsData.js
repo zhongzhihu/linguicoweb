@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Great app to quickly learn a language",
+    text: "I always wanted a simple flash card like app. This is a pretty good app for brushing up on German.",
+    username: "ChaiNBoba",
+    date: "Dec 15, 2024",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Almanca Öğrenmek İçin Harika",
+    text: "Uygulama Almanca dilini öğrenmek için iyi bir yaklaşım geliştirmiş. Gereksiz ayrıntılardan uzak sadece dil öğrenme hedefli.",
+    username: "engumt",
+    date: "Dec 13, 2024",
+    rating: 5,
+    country: "Türkiye",
+  },
+  {
+    title: "A good app for beginners",
+    text: "This app perfectly matches my learning habits. The content is concise and clear. As a beginner in German, I must give it a positive review~",
+    username: "—11(;",
+    date: "Dec 11, 2024",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "An easy start to the German language",
     text: "Provides a neat and contained way to pick up and practice German. There are multiple way to learn from the app, and easy for beginners to get into.",
     username: "Jordan2048",
