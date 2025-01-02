@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Effectief voor Duits leren",
+    text: "Ik gebruik deze app al een om Duitse woordenschat te leren. Daarnaast zijn de grammatica lessen echt heel goed!",
+    username: "Mevrouwwwww",
+    date: "Dec 31, 2024",
+    rating: 5,
+    country: "Netherlands",
+  },
+  {
+    title: "Super app",
+    text: "Hat mir sehr geholfen",
+    username: "EliasIlk",
+    date: "Dec 28, 2024",
+    rating: 5,
+    country: "Austria",
+  },
+  {
+    title: "È un ottima applicazione per imparare il Tedesco",
+    text: "È molto utile per imparare parole nuove e per ripassare. Lo consiglio vivamente a tutti di provare!",
+    username: "Fabio.Turchi",
+    date: "Dec 16, 2024",
+    rating: 5,
+    country: "Italy",
+  },
+  {
     title: "Great app to quickly learn a language",
     text: "I always wanted a simple flash card like app. This is a pretty good app for brushing up on German.",
     username: "ChaiNBoba",
