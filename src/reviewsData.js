@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "The only app that teaches German grammar",
+    text: "This app was mentioned on Reddit. It’s my favourite app for learning German, as it addresses shortcomings in other apps. It’s the only app that truly teaches grammar and includes nice extras for learning German vocabulary, with example sentences and grammar details like conjugations and irregular endings.",
+    username: "Carter-1995",
+    date: "Jan 1, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Effectief voor Duits leren",
     text: "Ik gebruik deze app al een om Duitse woordenschat te leren. Daarnaast zijn de grammatica lessen echt heel goed!",
     username: "Mevrouwwwww",
