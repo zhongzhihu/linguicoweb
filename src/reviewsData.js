@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Awesome for learning German",
+    text: "I love the different approach for learning German compared to apps like Duolingo. A great non-gamified approach to learning German with bite-sized lessons.",
+    username: "drksks12234",
+    date: "Jan 10, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Thank you",
     text: "Easy",
     username: "MeginGiord92",
