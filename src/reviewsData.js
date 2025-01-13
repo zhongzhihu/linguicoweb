@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Great app for beginners!",
+    text: "This app has been super helpful as a beginner trying to learn German. It's been nice using the voiceover features, and the sleek design makes it easy to track my progress and jump around to different words. Really great design and nice features to help me begin learning the language!",
+    username: "Ycishskskdhdisn",
+    date: "Jan 11, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Awesome for learning German",
     text: "I love the different approach for learning German compared to apps like Duolingo. A great non-gamified approach to learning German with bite-sized lessons.",
     username: "drksks12234",
