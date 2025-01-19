@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Good for german",
+    text: "I started using this app to make my german better. The flashcards and pronunciations are useful.",
+    username: "Darinda777",
+    date: "Jan 17, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "It helped me a lot",
+    text: "This app is very effective for learning German. I particularly like the feature that allows you to practice your incorrect answers, which helps reinforce learning.",
+    username: "Thomssie1",
+    date: "Jan 17, 2025",
+    rating: 5,
+    country: "Slovakia",
+  },
+  {
     title: "Great app for beginners!",
     text: "This app has been super helpful as a beginner trying to learn German. It's been nice using the voiceover features, and the sleek design makes it easy to track my progress and jump around to different words. Really great design and nice features to help me begin learning the language!",
     username: "Ycishskskdhdisn",
