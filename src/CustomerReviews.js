@@ -31,6 +31,7 @@ const countryCodeMap = {
   Poland: "pl",
   Romania: "ro",
   Singapore: "sg",
+  Slovakia: "sk",
   Spain: "es",
   "Sri Lanka": "lk",
   Switzerland: "ch",
