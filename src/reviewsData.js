@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Easy way to learn German",
+    text: "A great way to learn or improve your German language in an easy, simple way for English speakers like me.",
+    username: "MohaHadji",
+    date: "Jan 19, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Good for german",
     text: "I started using this app to make my german better. The flashcards and pronunciations are useful.",
     username: "Darinda777",
