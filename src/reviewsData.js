@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Great on the go!",
+    text: "It’s simple and straightforward, and I’ve been using it in the past few days to quickly refresh my mind when commuting. I see myself using it for a long while, thanks for making it!",
+    username: "mcomisso",
+    date: "Jan 19, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Easy way to learn German",
     text: "A great way to learn or improve your German language in an easy, simple way for English speakers like me.",
     username: "MohaHadji",
