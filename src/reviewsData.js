@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Useful for learning german",
+    text: "The app was useful to start speaking german.",
+    username: "Alehano777",
+    date: "Jan 21, 2025",
+    rating: 5,
+    country: "Portugal",
+  },
+  {
     title: "Great for beginners",
     text: "Just started using this app, great for me as a new learner! Easy to use, and works smoothly. The flashcards are helpful and there’s not too much going on to distract you. Recommend.",
     username: "Glen2510",
