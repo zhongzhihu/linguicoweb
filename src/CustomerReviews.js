@@ -24,7 +24,7 @@ const countryCodeMap = {
   Italy: "it",
   "Korea, Republic of": "kr",
   Latvia: "lv",
-  Morocco: "mo",
+  Morocco: "ma",
   Netherlands: "nl",
   "New Zealand": "nz",
   Norway: "no",
