@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Great for beginners",
+    text: "Just started using this app, great for me as a new learner! Easy to use, and works smoothly. The flashcards are helpful and there’s not too much going on to distract you. Recommend.",
+    username: "Glen2510",
+    date: "Jan 20, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "Such amazing app",
+    text: "I’m using this app everyday, I love the variety of exercises, from vocabulary to pronunciation practice, which makes learning fun and effective. The user interface is intuitive, and the progress tracking keeps me motivated. Highly recommended for beginners and advanced learners alike!",
+    username: "ksalaheddine",
+    date: "Jan 20, 2025",
+    rating: 5,
+    country: "Morocco",
+  },
+  {
     title: "Great on the go!",
     text: "It’s simple and straightforward, and I’ve been using it in the past few days to quickly refresh my mind when commuting. I see myself using it for a long while, thanks for making it!",
     username: "mcomisso",
