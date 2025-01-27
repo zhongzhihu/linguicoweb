@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Świetna aplikacja do nauki niemieckiego",
+    text: "Planuje przeprowadzić się do Niemiec i muszę nauczyć się niemieckiego. Próbowałem wielu aplikacji i zdecydowanie z tej korzysta mi się najlepiej. Zauważyłem największy progres w mojej nauce niemieckiego właśnie korzystając z linguico. Polecam wszystkim chcącym nauczyć się niemieckiego.",
+    username: "Łukasz Krawiec",
+    date: "Jan 26, 2025",
+    rating: 5,
+    country: "Poland",
+  },
+  {
+    title: "Easy to use flash cards",
+    text: "This app was super simple to start using and I have no education speaking German at all! I particularly like the text-to-speech feature, I think it really helps with memory and pronunciation.",
+    username: "DoubleDotMaxx",
+    date: "Jan 21, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Useful for learning german",
     text: "The app was useful to start speaking german.",
     username: "Alehano777",
