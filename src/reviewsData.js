@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Tolle App",
+    text: "Schön programmierte App zum lernen.",
+    username: "Alex213443356677",
+    date: "Jan 26, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
     title: "Świetna aplikacja do nauki niemieckiego",
     text: "Planuje przeprowadzić się do Niemiec i muszę nauczyć się niemieckiego. Próbowałem wielu aplikacji i zdecydowanie z tej korzysta mi się najlepiej. Zauważyłem największy progres w mojej nauce niemieckiego właśnie korzystając z linguico. Polecam wszystkim chcącym nauczyć się niemieckiego.",
     username: "Łukasz Krawiec",
