@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Amazing for everyday practice",
+    text: "Essential and effective to learn from basics. Clear explanation of grammar. Perfect for who want to start or refresh knowledge!",
+    username: "DaniiKey",
+    date: "Jan 28, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
+    title: "Almanca kelime pratiği için birebir",
+    text: "Almanca öğrenmeye karar verdim ve kelime öğrenmede sıkıntı çekiyordum. Flashcardlar sayesinde bu süreç kolaylaştı.",
+    username: "Samed Dağlı",
+    date: "Jan 28, 2025",
+    rating: 5,
+    country: "Türkiye",
+  },
+  {
+    title: "Helping me learn German",
+    text: "I've been using this app, and I've picked up so many German words I never thought I would. It's a great and super easy app! great and very simple app.",
+    username: "Sahad Alvi",
+    date: "Jan 28, 2025",
+    rating: 5,
+    country: "Canada",
+  },
+  {
     title: "Tolle App",
     text: "Schön programmierte App zum lernen.",
     username: "Alex213443356677",
