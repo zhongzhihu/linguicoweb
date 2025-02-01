@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Must have! 🙌",
+    text: "If you're struggling to learn German like me… (oh my, those articles! 😫), you need this app! It organizes all the grammar rules in a clear, structured way, making them easy to find. Plus, you can practice with flashcards. And the best part? It's completely free! Can you believe it? Huge thanks to the developers!",
+    username: "olivia_89",
+    date: "Jan 31, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Amazing for everyday practice",
     text: "Essential and effective to learn from basics. Clear explanation of grammar. Perfect for who want to start or refresh knowledge!",
     username: "DaniiKey",
