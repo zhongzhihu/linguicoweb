@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Nice app to practice German",
+    text: "Pretty useful for a non native speakers to improve German skills",
+    username: "Dhhdxv",
+    date: "Feb 1, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Must have! 🙌",
     text: "If you're struggling to learn German like me… (oh my, those articles! 😫), you need this app! It organizes all the grammar rules in a clear, structured way, making them easy to find. Plus, you can practice with flashcards. And the best part? It's completely free! Can you believe it? Huge thanks to the developers!",
     username: "olivia_89",
@@ -32,20 +40,20 @@ export const reviewsData = [
     country: "Canada",
   },
   {
-    title: "Tolle App",
-    text: "Schön programmierte App zum lernen.",
-    username: "Alex213443356677",
-    date: "Jan 26, 2025",
-    rating: 5,
-    country: "Germany",
-  },
-  {
     title: "Świetna aplikacja do nauki niemieckiego",
     text: "Planuje przeprowadzić się do Niemiec i muszę nauczyć się niemieckiego. Próbowałem wielu aplikacji i zdecydowanie z tej korzysta mi się najlepiej. Zauważyłem największy progres w mojej nauce niemieckiego właśnie korzystając z linguico. Polecam wszystkim chcącym nauczyć się niemieckiego.",
     username: "Łukasz Krawiec",
     date: "Jan 26, 2025",
     rating: 5,
     country: "Poland",
+  },
+  {
+    title: "Tolle App",
+    text: "Schön programmierte App zum lernen.",
+    username: "Alex213443356677",
+    date: "Jan 26, 2025",
+    rating: 5,
+    country: "Germany",
   },
   {
     title: "Easy to use flash cards",
