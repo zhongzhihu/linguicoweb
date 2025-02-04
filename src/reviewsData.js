@@ -1,5 +1,37 @@
 export const reviewsData = [
   {
+    title: "Tres bonne application",
+    text: "Cette appli m a permis d apprendre assez rapidement l allemand et les bases ! Merci énormément aux développeurs pour ce petit bijou",
+    username: "Zababplease",
+    date: "Feb 3, 2025",
+    rating: 5,
+    country: "France",
+  },
+  {
+    title: "Amazing concept",
+    text: "Amazing app! Unique concept to learn German ❤️",
+    username: "ninety99ne",
+    date: "Feb 3, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "The only app that is teaching German Grammar",
+    text: "The app is used in my German language class, and even the teacher thinks it's good. Great quality flashcards and drill exercises for der, die, das and prepositions. I also love that this app truly focuses on teaching German including grammar —unlike Duolingo.",
+    username: "AndreiP3456",
+    date: "Feb 3, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "⭐️5 estrelas!",
+    text: "Estou aprendendo alemão há um ano (sozinho) e tenho tido muita dificuldade com a gramática... Algumas regras são muito complicadas, e é difícil encontrá-las em um só lugar. É por isso que fiquei muito feliz ao encontrar este aplicativo, onde tenho todas as regras bem explicadas em um só lugar + posso treinar tudo o que aprendi aqui com flashcards! É muito útil! E é gratuito!",
+    username: "davi_costa_83",
+    date: "Feb 2, 2025",
+    rating: 5,
+    country: "Brazil",
+  },
+  {
     title: "Nice app to practice German",
     text: "Pretty useful for a non native speakers to improve German skills",
     username: "Dhhdxv",
