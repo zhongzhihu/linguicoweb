@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Fantastic app for learning German!",
+    text: "With 15,000+ flashcards, interactive exercises, and clear grammar summaries, it makes building vocabulary and mastering tricky articles like 'der, die, das' easy and effective. Perfect for beginners and advanced learners alike!",
+    username: "Axel LP",
+    date: "Feb 6, 2025",
+    rating: 5,
+    country: "France",
+  },
+  {
+    title: "Helpful :)",
+    text: "Helpful tool with clean and user-friendly interface",
+    username: "Louis-f Celine",
+    date: "Feb 5, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Tres bonne application",
     text: "Cette appli m a permis d apprendre assez rapidement l allemand et les bases ! Merci énormément aux développeurs pour ce petit bijou",
     username: "Zababplease",
