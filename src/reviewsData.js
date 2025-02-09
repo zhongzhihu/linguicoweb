@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Very useful",
+    text: "Very nice app to learn German. I really like the offline dictionary and it is easy to use. Thank you!",
+    username: "K3v!",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
+    title: "Skuteczna nauka niemieckiego",
+    text: "Fajna apka do nauki zaimków, słownictwa oraz czasów. Polecam szczególnie początkującym i średniozaawansowanym",
+    username: "Bogu86",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Poland",
+  },
+  {
+    title: "Quite Helpful",
+    text: "This is a great little app for brushing up my German skills that I haven’t put to much use since secondary school!",
+    username: "G.Harte",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Ireland",
+  },
+  {
     title: "Fantastic app for learning German!",
     text: "With 15,000+ flashcards, interactive exercises, and clear grammar summaries, it makes building vocabulary and mastering tricky articles like 'der, die, das' easy and effective. Perfect for beginners and advanced learners alike!",
     username: "Axel LP",
