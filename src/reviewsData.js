@@ -1,11 +1,27 @@
 export const reviewsData = [
   {
+    title: "Magnifico",
+    text: "Fantastico modo per imparare il vocabolario tedesco. L’app offre molti contenuti utili ed esercizi per imparare il tedesco.",
+    username: "Looker1989",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Italy",
+  },
+  {
     title: "Very useful",
     text: "Very nice app to learn German. I really like the offline dictionary and it is easy to use. Thank you!",
     username: "K3v!",
     date: "Feb 8, 2025",
     rating: 5,
     country: "Germany",
+  },
+  {
+    title: "Quite Helpful",
+    text: "This is a great little app for brushing up my German skills that I haven’t put to much use since secondary school!",
+    username: "G.Harte",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Ireland",
   },
   {
     title: "Skuteczna nauka niemieckiego",
@@ -16,12 +32,12 @@ export const reviewsData = [
     country: "Poland",
   },
   {
-    title: "Quite Helpful",
-    text: "This is a great little app for brushing up my German skills that I haven’t put to much use since secondary school!",
-    username: "G.Harte",
+    title: "Very nice and well made app!",
+    text: "No need to say much, it is very useful app, using it every day!",
+    username: "sabiland",
     date: "Feb 8, 2025",
     rating: 5,
-    country: "Ireland",
+    country: "Slovenia",
   },
   {
     title: "Fantastic app for learning German!",
