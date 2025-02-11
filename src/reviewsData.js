@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Корисний додаток",
+    text: "Дуже зручний додаток для вивчення німецької мови. Також сподобалось зручне переключення з німецької на англійську мову. Дуже дякую розробникам 🙂",
+    username: "Healer928802",
+    date: "Feb 10, 2025",
+    rating: 5,
+    country: "Ukraine",
+  },
+  {
     title: "Impariamo il tedesco",
     text: "Era da un po’ che cercavo un app per imparare il tedesco e quest’app è perfetta perché ha moltissime lezioni di grammatica con spiegazioni chiare e dettagliate e per verificare l’apprendimento puoi svolgere gli esercizi. Ottima!",
     username: "Catta.",
