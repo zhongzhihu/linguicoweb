@@ -1,11 +1,19 @@
 export const reviewsData = [
   {
-    title: "Magnifico",
-    text: "Fantastico modo per imparare il vocabolario tedesco. L’app offre molti contenuti utili ed esercizi per imparare il tedesco.",
-    username: "Looker1989",
-    date: "Feb 8, 2025",
+    title: "Impariamo il tedesco",
+    text: "Era da un po’ che cercavo un app per imparare il tedesco e quest’app è perfetta perché ha moltissime lezioni di grammatica con spiegazioni chiare e dettagliate e per verificare l’apprendimento puoi svolgere gli esercizi. Ottima!",
+    username: "Catta.",
+    date: "Feb 9, 2025",
     rating: 5,
     country: "Italy",
+  },
+  {
+    title: "Fajne!",
+    text: "Bardzo przydatna aplikacja do nauki niemieckiego. W przyjemny sposób pomogła mi odświeżyć już mocno zapomniane podstawy :)",
+    username: "krzysiek.sadowski",
+    date: "Feb 9, 2025",
+    rating: 5,
+    country: "Poland",
   },
   {
     title: "Very useful",
@@ -24,6 +32,14 @@ export const reviewsData = [
     country: "Ireland",
   },
   {
+    title: "Very nice and well made app!",
+    text: "No need to say much, it is very useful app, using it every day!",
+    username: "sabiland",
+    date: "Feb 8, 2025",
+    rating: 5,
+    country: "Slovenia",
+  },
+  {
     title: "Skuteczna nauka niemieckiego",
     text: "Fajna apka do nauki zaimków, słownictwa oraz czasów. Polecam szczególnie początkującym i średniozaawansowanym",
     username: "Bogu86",
@@ -32,12 +48,12 @@ export const reviewsData = [
     country: "Poland",
   },
   {
-    title: "Very nice and well made app!",
-    text: "No need to say much, it is very useful app, using it every day!",
-    username: "sabiland",
+    title: "Magnifico",
+    text: "Fantastico modo per imparare il vocabolario tedesco. L’app offre molti contenuti utili ed esercizi per imparare il tedesco.",
+    username: "Looker1989",
     date: "Feb 8, 2025",
     rating: 5,
-    country: "Slovenia",
+    country: "Italy",
   },
   {
     title: "Fantastic app for learning German!",
