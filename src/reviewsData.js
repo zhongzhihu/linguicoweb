@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Tyske flashcards",
+    text: "Fantastisk god app for å lære tysk. Bruker denne appen regelmessig for å friske opp mitt tyske ordforråd og grammatikk etter å ha glemt det meste fra skolen. Anbefales!",
+    username: "Helgemat",
+    date: "Feb 11, 2025",
+    rating: 5,
+    country: "Norway",
+  },
+  {
+    title: "Excelente app para aprender alemán",
+    text: "La aplicación es muy sencilla y práctica y te presenta con tarjetas de gramática y vocabulario de alemán con distintos niveles, te permite personalizar la experiencia para aprender más rápido. Recomendable!",
+    username: "Grantory",
+    date: "Feb 11, 2025",
+    rating: 5,
+    country: "Spain",
+  },
+  {
+    title: "Awesome app!",
+    text: "Great app, really helping me learn German!",
+    username: "D1n0_nugg3t",
+    date: "Feb 11, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Корисний додаток",
     text: "Дуже зручний додаток для вивчення німецької мови. Також сподобалось зручне переключення з німецької на англійську мову. Дуже дякую розробникам 🙂",
     username: "Healer928802",
