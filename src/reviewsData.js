@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Gut",
+    text: "Отличные карточки, артикли, лучше остальных приложений. Из минусов - нет перевода с русского",
+    username: "Admi78Rus",
+    date: "Feb 12, 2025",
+    rating: 4,
+    country: "Russia",
+  },
+  {
+    title: "Sehr gute App",
+    text: "Schön und gut!!",
+    username: "medigruber",
+    date: "Feb 12, 2025",
+    rating: 5,
+    country: "Austria",
+  },
+  {
     title: "Tyske flashcards",
     text: "Fantastisk god app for å lære tysk. Bruker denne appen regelmessig for å friske opp mitt tyske ordforråd og grammatikk etter å ha glemt det meste fra skolen. Anbefales!",
     username: "Helgemat",
