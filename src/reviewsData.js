@@ -4,7 +4,7 @@ export const reviewsData = [
     text: "Отличные карточки, артикли, лучше остальных приложений. Из минусов - нет перевода с русского",
     username: "Admi78Rus",
     date: "Feb 12, 2025",
-    rating: 4,
+    rating: 5,
     country: "Russia",
   },
   {
