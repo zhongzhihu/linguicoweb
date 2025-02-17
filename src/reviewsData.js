@@ -1,11 +1,11 @@
 export const reviewsData = [
   {
-    title: "Gut",
-    text: "Отличные карточки, артикли, лучше остальных приложений. Из минусов - нет перевода с русского",
-    username: "Admi78Rus",
-    date: "Feb 12, 2025",
+    title: "Enjoyed it much",
+    text: "Excellent app for learning German. I use this app in particular for learning vocabulary.",
+    username: "kkanchev94",
+    date: "Feb 16, 2025",
     rating: 5,
-    country: "Russia",
+    country: "United States",
   },
   {
     title: "Sehr gute App",
@@ -14,6 +14,14 @@ export const reviewsData = [
     date: "Feb 12, 2025",
     rating: 5,
     country: "Austria",
+  },
+  {
+    title: "Gut",
+    text: "Отличные карточки, артикли, лучше остальных приложений. Из минусов - нет перевода с русского",
+    username: "Admi78Rus",
+    date: "Feb 12, 2025",
+    rating: 5,
+    country: "Russia",
   },
   {
     title: "Tyske flashcards",
