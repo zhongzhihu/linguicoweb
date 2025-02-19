@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Great and useful app!",
+    text: "Naudojausi šia programėle norint pagerinti savo vokiečių kalbos žinias. Patiko rašybos pratimai bei pats kortelių konspektas, kuris geriau padėjo įsiavinti medžiagą, rekomenduoju!",
+    username: "MartynasAsas",
+    date: "Feb 18, 2025",
+    rating: 5,
+    country: "Lithuania",
+  },
+  {
+    title: "Great for learning German!",
+    text: "Linguico is great for practicing the language, and the app offers all the resources to help you study and understand cases in German. I love that I can customise my learning experience.",
+    username: "🌞",
+    date: "Feb 17, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Enjoyed it much",
     text: "Excellent app for learning German. I use this app in particular for learning vocabulary.",
     username: "kkanchev94",
