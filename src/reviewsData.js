@@ -1,6 +1,6 @@
 export const reviewsData = [
   {
-    title: "Great and useful app!",
+    title: "Puiki ir naudinga programėlė!",
     text: "Naudojausi šia programėle norint pagerinti savo vokiečių kalbos žinias. Patiko rašybos pratimai bei pats kortelių konspektas, kuris geriau padėjo įsiavinti medžiagą, rekomenduoju!",
     username: "MartynasAsas",
     date: "Feb 18, 2025",
