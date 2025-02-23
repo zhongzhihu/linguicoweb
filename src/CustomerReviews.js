@@ -45,6 +45,7 @@ const countryCodeMap = {
   Taiwan: "tw",
   Türkiye: "tr",
   Ukraine: "ua",
+  "United Arab Emirates": "ae",
   "United Kingdom": "gb",
   "United States": "us",
   Vietnam: "vn",
