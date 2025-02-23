@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "برنامج ممتاز",
+    text: "سعدتني اتعرف على كلمات جديدة و احسن نطق بالألمانية",
+    username: "Arshavin17",
+    date: "Feb 22, 2025",
+    rating: 5,
+    country: "United Arab Emirates",
+  },
+  {
+    title: "Great app to learn German",
+    text: "This is my go to app to learn German. The UI is great app flashcards are very useful.",
+    username: "ran10153",
+    date: "Feb 19, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
     title: "Puiki ir naudinga programėlė!",
     text: "Naudojausi šia programėle norint pagerinti savo vokiečių kalbos žinias. Patiko rašybos pratimai bei pats kortelių konspektas, kuris geriau padėjo įsiavinti medžiagą, rekomenduoju!",
     username: "MartynasAsas",
