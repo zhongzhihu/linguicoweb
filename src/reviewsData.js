@@ -1,5 +1,37 @@
 export const reviewsData = [
   {
+    title: "A Must Have German Learning App!",
+    text: "I have had this app for over a week now and I must say, the simplicity of the app doubles its efficiency to learn German language using flashcards. You can choose from different lessons, learn German vocabulary, improve your grammar and practice daily easy to difficult challenges to get proficient at German language learning. I recommend it.",
+    username: "MasterSherlock93",
+    date: "Feb 27, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Recommend!",
+    text: "Great app and very valuable! Would recommend!",
+    username: "Tenicho2",
+    date: "Feb 27, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Really helpful!",
+    text: "This app has been super helpful. It's really simple to use. Whenever I have free time I can do quick German lessons.",
+    username: "ToseefDon",
+    date: "Feb 25, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "Perfect flashcards app",
+    text: "Very innovative and easy to use app. Started loving it from the day one.",
+    username: "Santu Dey",
+    date: "Feb 25, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
     title: "برنامج ممتاز",
     text: "سعدتني اتعرف على كلمات جديدة و احسن نطق بالألمانية",
     username: "Arshavin17",
