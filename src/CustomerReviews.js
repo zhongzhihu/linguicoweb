@@ -30,6 +30,7 @@ const countryCodeMap = {
   "New Zealand": "nz",
   Norway: "no",
   Pakistan: "pk",
+  Philippines: "ph",
   Poland: "pl",
   Portugal: "pt",
   Romania: "ro",

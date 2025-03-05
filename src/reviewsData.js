@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Learning German got so easy with the app!",
+    text: "Excellent app for learning German. Great flashcards for learning vocabulary that are better than Anki flashcard.",
+    username: "chi-chi8595",
+    date: "Mar 3, 2025",
+    rating: 5,
+    country: "Philippines",
+  },
+  {
     title: "A Must Have German Learning App!",
     text: "I have had this app for over a week now and I must say, the simplicity of the app doubles its efficiency to learn German language using flashcards. You can choose from different lessons, learn German vocabulary, improve your grammar and practice daily easy to difficult challenges to get proficient at German language learning. I recommend it.",
     username: "MasterSherlock93",
