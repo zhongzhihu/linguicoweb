@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Fantastic App",
+    text: "Learning German with flashcards and grammar lessons!! I like that lessons are just like in school courses! Also lots of grammar exercises.",
+    username: "Filmkritiker2012",
+    date: "Mar 5, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
     title: "A great app to learn German.",
     text: "This is a really really cool app to learn German for beginners!! I’m enjoying it so far.",
     username: "dayvoid97",
