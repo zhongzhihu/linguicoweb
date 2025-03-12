@@ -40,7 +40,7 @@ const countryCodeMap = {
   Slovenia: "si",
   Spain: "es",
   "Sri Lanka": "lk",
-  "South Africa": "sa",
+  "South Africa": "za",
   Switzerland: "ch",
   Sweden: "se",
   Thailand: "th",
