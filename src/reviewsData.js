@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Awesome app for learning!",
+    text: "The best app for learning German vocabulary and for learning the correct articles 'der, die, das'.",
+    username: "Jacob_BHW",
+    date: "Mar 10, 2025",
+    rating: 5,
+    country: "South Africa",
+  },
+  {
+    title: "Great app for German!",
+    text: "Taking a trip to Germany this year and have been wanting to get an app to get my German up to par to get by conversationally. This is great for newbies like me or more advanced German Speakers to get better with the language!",
+    username: "sku424242",
+    date: "Mar 10, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Fantastic App",
     text: "Learning German with flashcards and grammar lessons!! I like that lessons are just like in school courses! Also lots of grammar exercises.",
     username: "Filmkritiker2012",
