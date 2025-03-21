@@ -1,5 +1,37 @@
 export const reviewsData = [
   {
+    title: "Linguico: The Smart Way to Master German Vocabulary ⭐⭐⭐⭐⭐",
+    text: "After trying countless language apps, Linguico stands out as the most effective tool for learning German vocabulary. Unlike generic flashcard apps, Linguico is specifically designed for German learners with thoughtfully curated content. The app's greatest strength is its high-quality built-in flashcards. Rather than wasting time with inconsistent public Anki decks, Linguico provides professionally created cards for 15,000 German words, organized by frequency. This approach ensures you learn the most useful vocabulary first - a huge time-saver! Each flashcard goes beyond basic translations by including:\n- Clear grammar information\n- Irregular forms (crucial for German!)\n- Practical example sentences\n- Native speaker audio\n\nThe official wordlists feature is excellent for structured learning, letting you choose between Goethe Institute A1, A2, or B1 levels. This alignment with recognized standards gives you confidence that you're learning exactly what you need for tests or real-world conversations.\n\nThe spaced repetition system works brilliantly, adjusting to your learning pace and ensuring words stick in your long-term memory. The interface is clean and intuitive, making daily practice enjoyable rather than a chore.\n\nIf you're serious about learning German vocabulary efficiently, Linguico is worth every penny. It's transformed my German learning journey from frustrating to rewarding!",
+    username: "asabaterg",
+    date: "Mar 20, 2025",
+    rating: 5,
+    country: "Switzerland",
+  },
+  {
+    title: "Super",
+    text: "Benutze die app jetzt seit mehreren monaten und bin begeistert wie gut und einfach das ganze ist.",
+    username: "Cancan338",
+    date: "Mar 20, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
+    title: "game-changer for German Learning",
+    text: "This app is a game-changer for learning German. I love the flashcards for learning German vocabulary, it is much better than any Anki deck. In addition, great exercises for practicing grammar and German articles.",
+    username: "wwwwwwwkkkkkkkkxxxxxxxz",
+    date: "Mar 14, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Oh, that’s fun!",
+    text: "Fantastic tool! Perfect for beginners and advanced learners alike!",
+    username: "Sasharon74",
+    date: "Mar 13, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Awesome app for learning!",
     text: "The best app for learning German vocabulary and for learning the correct articles 'der, die, das'.",
     username: "Jacob_BHW",
