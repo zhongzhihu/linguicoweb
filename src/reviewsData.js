@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Enkelt och naturligt",
+    text: "Väldigt smidigt att komma igång. Äntligen en app som gör det naturligt och enkelt att lära sig språk. 5/5 ⭐️",
+    username: "Gerardlondon",
+    date: "Apr 2, 2025",
+    rating: 5,
+    country: "Sweden",
+  },
+  {
+    title: "Good way to learn German vocabulary",
+    text: "I use this app a lot for learning German words with the Anki style flashcards. I love the details added to each flashcards, like the irregular verb conjugations. In addition, I like the grammar exercises and the exercises for learning der, die, das.",
+    username: "Vivek beladiya",
+    date: "Apr 2, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
+    title: "Built well",
+    text: "Fun and useful!",
+    username: "Sell Shovels",
+    date: "Mar 31, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Linguico: The Smart Way to Master German Vocabulary ⭐⭐⭐⭐⭐",
     text: "After trying countless language apps, Linguico stands out as the most effective tool for learning German vocabulary. Unlike generic flashcard apps, Linguico is specifically designed for German learners with thoughtfully curated content. The app's greatest strength is its high-quality built-in flashcards. Rather than wasting time with inconsistent public Anki decks, Linguico provides professionally created cards for 15,000 German words, organized by frequency. This approach ensures you learn the most useful vocabulary first - a huge time-saver! Each flashcard goes beyond basic translations by including:\n- Clear grammar information\n- Irregular forms (crucial for German!)\n- Practical example sentences\n- Native speaker audio\n\nThe official wordlists feature is excellent for structured learning, letting you choose between Goethe Institute A1, A2, or B1 levels. This alignment with recognized standards gives you confidence that you're learning exactly what you need for tests or real-world conversations.\n\nThe spaced repetition system works brilliantly, adjusting to your learning pace and ensuring words stick in your long-term memory. The interface is clean and intuitive, making daily practice enjoyable rather than a chore.\n\nIf you're serious about learning German vocabulary efficiently, Linguico is worth every penny. It's transformed my German learning journey from frustrating to rewarding!",
     username: "asabaterg",
