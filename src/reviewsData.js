@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "I can’t believe this app is totally free",
+    text: "I would be happy to pay a one time fee for it (no subscription please). Can’t wait for the developer to add more languages. Please consider adding Norwegian Bokmål. Thank you!",
+    username: "Janey Gold",
+    date: "Apr 4, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "Enkelt och naturligt",
     text: "Väldigt smidigt att komma igång. Äntligen en app som gör det naturligt och enkelt att lära sig språk. 5/5 ⭐️",
     username: "Gerardlondon",
