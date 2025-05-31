@@ -1,5 +1,23 @@
 export const reviewsData = [
   {
+    title: "Practice your German words",
+    text: "I love it to practice german words by gender",
+    username: "Ciaala",
+    date: "May 18, 2025",
+    rating: null,
+    country: "Switzerland",
+    version: "1.3.1",
+  },
+  {
+    title: "Great app",
+    text: "Very helpful! Great for beginners.",
+    username: "Sarah@007",
+    date: "May 5, 2025",
+    rating: null,
+    country: "United States",
+    version: "1.3.1",
+  },
+  {
     title: "I can’t believe this app is totally free",
     text: "I would be happy to pay a one time fee for it (no subscription please). Can’t wait for the developer to add more languages. Please consider adding Norwegian Bokmål. Thank you!",
     username: "Janey Gold",
