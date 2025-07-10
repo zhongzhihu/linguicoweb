@@ -1,12 +1,44 @@
 export const reviewsData = [
   {
+    title: "Nice flashcards app",
+    text: "This app is very intuitive and perfect for beginners learning German. It makes studying vocabulary simple and enjoyable. No fancy UI that make it even better to be focused on learning a new language",
+    username: "Kostya-89",
+    date: "Jul 7, 2025",
+    rating: 5,
+    country: "Argentina",
+  },
+  {
+    title: "Great for learning German",
+    text: "This app is a fantastic resource for anyone serious about learning German, especially those preparing for the Goethe exam. It aligns perfectly with the Goethe vocabulary lists, making it an ideal companion for exam preparation. Linguico has a textbook-like feel, perfect for those who appreciate in-depth content.",
+    username: "SSG85",
+    date: "Jul 4, 2025",
+    rating: 5,
+    country: "Canada",
+  },
+  {
+    title: "Recomiendo",
+    text: "Me gusta la app. Estaría genial que pudieran eliminarse las palabras que ya se conocen para que no se pierda tiempo en ponerlas en la casilla verde de que se conocen. Igual que pudiera tener traducción al español. Gracias y adiós les bendiga",
+    username: "Review7177",
+    date: "Jun 21, 2025",
+    rating: 4,
+    country: "Mexico",
+  },
+
+  {
+    title: "Great App for Learning German! ⭐⭐⭐⭐⭐",
+    text: "This app is one of the best for learning German! It covers 15,000+ useful words with smart flashcards, clear grammar tables, and fun exercises. The “der, die, das” trainer is super helpful, and everything is designed to be practical and easy to use. Perfect for learning on the go—highly recommended!",
+    username: "Shayanypn",
+    date: "Jun 1, 2025",
+    rating: 5,
+    country: "Germany",
+  },
+  {
     title: "Practice your German words",
     text: "I love it to practice german words by gender",
     username: "Ciaala",
     date: "May 18, 2025",
     rating: 5,
     country: "Switzerland",
-    version: "1.3.1",
   },
   {
     title: "Great app",
@@ -15,7 +47,6 @@ export const reviewsData = [
     date: "May 5, 2025",
     rating: 5,
     country: "United States",
-    version: "1.3.1",
   },
   {
     title: "I can’t believe this app is totally free",
