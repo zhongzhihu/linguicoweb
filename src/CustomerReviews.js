@@ -4,6 +4,7 @@ import { reviewsData } from "./reviewsData";
 import appStoreIcon from "./app-store-icon.png";
 
 const countryCodeMap = {
+  Argentina: "ar",
   Australia: "au",
   Austria: "at",
   "Bosnia and Herzegovina": "ba",
@@ -25,6 +26,7 @@ const countryCodeMap = {
   "Korea, Republic of": "kr",
   Latvia: "lv",
   Lithuania: "lt",
+  Mexico: "mx",
   Morocco: "ma",
   Netherlands: "nl",
   "New Zealand": "nz",
