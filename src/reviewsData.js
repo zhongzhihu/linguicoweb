@@ -1,5 +1,45 @@
 export const reviewsData = [
   {
+    title: "It’s so much fun learning German now",
+    text: "I have tried few application but I think this one is just perfect. The UI is clean, which helps me to focus on the language learning.",
+    username: "Cool_Monk29",
+    date: "Sep 4, 2025",
+    rating: 5,
+    country: "Japan",
+  },
+  {
+    title: "Useful and easy-to-use German Flashcards app",
+    text: "This app is a very useful for those who wants to improve their language skills in German or who wants to learn from zero.",
+    username: "AVILDEV",
+    date: "Sep 1, 2025",
+    rating: 5,
+    country: "Armenia",
+  },
+  {
+    title: "Exactly what we needed",
+    text: "This app is exactly what we needed to learn German language. Easy and simple to use! Thank you for building this app.",
+    username: "YLAMET",
+    date: "Aug 24, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Minimalistic app for true-learners",
+    text: "So far best app for learning vocab and practicing sentence making. No ads. Super!",
+    username: "CaptainSam222",
+    date: "Aug 14, 2025",
+    rating: 5,
+    country: "Slovakia",
+  },
+  {
+    title: "Simple and super useful",
+    text: "I've really enjoyed using Linguico. It makes language learning feel easy and logical. It’s great for any level — beginner or advanced. I especially like the option to practice gender, which many apps skip. And having so much useful info in one place really helps me stay focused.",
+    username: "Chernika-Malina",
+    date: "Jul 22, 2025",
+    rating: 5,
+    country: "Ukraine",
+  },
+  {
     title: "Nice flashcards app",
     text: "This app is very intuitive and perfect for beginners learning German. It makes studying vocabulary simple and enjoyable. No fancy UI that make it even better to be focused on learning a new language",
     username: "Kostya-89",
@@ -23,7 +63,6 @@ export const reviewsData = [
     rating: 4,
     country: "Mexico",
   },
-
   {
     title: "Great App for Learning German! ⭐⭐⭐⭐⭐",
     text: "This app is one of the best for learning German! It covers 15,000+ useful words with smart flashcards, clear grammar tables, and fun exercises. The “der, die, das” trainer is super helpful, and everything is designed to be practical and easy to use. Perfect for learning on the go—highly recommended!",
