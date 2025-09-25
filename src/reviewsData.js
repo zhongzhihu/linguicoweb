@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Excellent German Flashcards",
+    text: "Excellent app for learning German vocabulary with Anki flashcards. The decks are practical because they are sorted by word frequency in German.",
+    username: "irvy94",
+    date: "Sep 23, 2025",
+    rating: 5,
+    country: "Ireland",
+  },
+  {
+    title: "Amazing app!",
+    text: "Loved the idea and the execution. Makes German learning very easy!",
+    username: "hminahsu",
+    date: "Sep 23, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
     title: "Excellent app for learning German words!",
     text: "I use this app during my commute to learn German vocabulary and practice grammar through exercises. It is great",
     username: "Aniruddha Lanke",
