@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Aplicatie practica",
+    text: "Foarte usor de urmarit gramatica cu lectiile si testele predefinite.",
+    username: "George5765",
+    date: "Nov 8, 2025",
+    rating: 5,
+    country: "Romania",
+  },
+  {
+    title: "Very knowledgeable",
+    text: "Great app! It’s packed with knowledge and teaches concepts really well. Learning feels easy and enjoyable.",
+    username: "Tech-truth",
+    date: "Nov 7, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Nice app",
+    text: "Helped me lot to learn German.",
+    username: "TusharChandak",
+    date: "Nov 6, 2025",
+    rating: 5,
+    country: "India",
+  },
+  {
     title: "Excellent German Flashcards",
     text: "Excellent app for learning German vocabulary with Anki flashcards. The decks are practical because they are sorted by word frequency in German.",
     username: "irvy94",
