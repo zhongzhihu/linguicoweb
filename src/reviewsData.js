@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Very good for learning German",
+    text: "Highly detailed, built-in Anki flashcards for learning German vocabulary. The cards include grammar notes, including irregular verb conjunctions, just like you’d find in a school textbook. This app is free and personally I find it far more effective than Duolingo for learning German.",
+    username: "InvisibleG",
+    date: "Dec 1, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great for learning",
+    text: "Been using this app for 2 days and my German has improved. I love the der, die das flashcards!",
+    username: "JonathanRoye",
+    date: "Nov 29, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great app",
+    text: "Great app to learn German and get a more solid foundation",
+    username: "Simon.trut",
+    date: "Nov 13, 2025",
+    rating: 5,
+    country: "Spain",
+  },
+  {
     title: "Aplicatie practica",
     text: "Foarte usor de urmarit gramatica cu lectiile si testele predefinite.",
     username: "George5765",
