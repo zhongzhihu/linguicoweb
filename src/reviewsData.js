@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "Really Helpful for Learning German!",
+    text: "I have been using this app to learn german and it’s been super helpful. The lessons are simple, the grammar tips make sense. Overall it’s a really friendly easy to use app that actually helps to understand German step by steps. Loved it!",
+    username: "octamaggot",
+    date: "Dec 6, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Is time to learn german",
+    text: "U can catch up easily",
+    username: "kclaw92",
+    date: "Dec 5, 2025",
+    rating: 5,
+    country: "Singapore",
+  },
+  {
+    title: "Good der die das app",
+    text: "I mainly use this app for learning 'der die das' articles.",
+    username: "Gemini_mc",
+    date: "Dec 4, 2025",
+    rating: 5,
+    country: "Hong Kong",
+  },
+  {
     title: "Very good for learning German",
     text: "Highly detailed, built-in Anki flashcards for learning German vocabulary. The cards include grammar notes, including irregular verb conjunctions, just like you’d find in a school textbook. This app is free and personally I find it far more effective than Duolingo for learning German.",
     username: "InvisibleG",
