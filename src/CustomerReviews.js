@@ -26,6 +26,7 @@ const countryCodeMap = {
   Italy: "it",
   Japan: "jp",
   "Korea, Republic of": "kr",
+  Kazakhstan: "kz",
   Latvia: "lv",
   Lithuania: "lt",
   Mexico: "mx",

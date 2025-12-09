@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "A great resource!",
+    text: "I wish I had found this app before my trip to Germany and Switzerland! It really is very helpful in learning German and I can see myself making progress each time I use the app.",
+    username: "Tom87870",
+    date: "Dec 8, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Рахмет!",
+    text: "Неміс тілін үйреніп жүрсем, осы қосымша шынымен көмектесті. Сөздерді тез жаттатқызады, «der-die-das» үйренуге өте ыңғайлы. Қарапайым, түсінікті, кез келген уақытта ашып кете бересің. Ұнайды, қолдануға ыңғайлы.",
+    username: "Shaq637",
+    date: "Dec 7, 2025",
+    rating: 5,
+    country: "Kazakhstan",
+  },
+  {
+    title: "Odlicna aplikacija za ucenje njemackog",
+    text: "Najvise mi se svidja sto ima ogroman broj rijeci, koje su korisne i potrebne za svakodnevnu komunikaciju. Sve pohvale",
+    username: "Luxylone",
+    date: "Dec 7, 2025",
+    rating: 5,
+    country: "Serbia",
+  },
+  {
     title: "Really Helpful for Learning German!",
     text: "I have been using this app to learn german and it’s been super helpful. The lessons are simple, the grammar tips make sense. Overall it’s a really friendly easy to use app that actually helps to understand German step by steps. Loved it!",
     username: "octamaggot",
