@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Loved it!",
+    text: "This app is really helpful for learning german. I have been using this for a while and completed most of the lessons. It’s fun and interactive and easy to understand german. Recommending it.",
+    username: "sofia980",
+    date: "Dec 13, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Utile e facile!",
+    text: "Ho trovato questa app molto utile per ripassare prima dell’esame, la consiglio!",
+    username: "Gabri mi",
+    date: "Dec 13, 2025",
+    rating: 5,
+    country: "Italy",
+  },
+  {
     title: "Amazing for learning German",
     text: "A great alternative to Duolingo for learning German, as this app provides a much stronger focus on teaching grammar. I hope they will soon add Spanish.",
     username: "LucasSwing",
@@ -1911,5 +1927,21 @@ export const reviewsData = [
     date: "Aug 3, 2024",
     rating: 5,
     country: "Netherlands",
+  },
+  {
+    title: "Utile e facile!",
+    text: "Ho trovato questa app molto utile per ripassare prima dell’esame, la consiglio!",
+    username: "Gabri mi",
+    date: "Dec 13, 2025",
+    rating: 5,
+    country: "Italy",
+  },
+  {
+    title: "Loved it!",
+    text: "This app is really helpful for learning german. I have been using this for a while and completed most of the lessons. It’s fun and interactive and easy to understand german. Recommending it.",
+    username: "sofia980",
+    date: "Dec 13, 2025",
+    rating: 5,
+    country: "United States",
   },
 ];
