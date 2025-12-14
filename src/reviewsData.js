@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Amazing for learning German",
+    text: "A great alternative to Duolingo for learning German, as this app provides a much stronger focus on teaching grammar. I hope they will soon add Spanish.",
+    username: "LucasSwing",
+    date: "Dec 11, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Great app",
+    text: "Linguico is a remarkably effective, no-nonsense German learning app",
+    username: "Snowkz",
+    date: "Dec 11, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "A great resource!",
     text: "I wish I had found this app before my trip to Germany and Switzerland! It really is very helpful in learning German and I can see myself making progress each time I use the app.",
     username: "Tom87870",
