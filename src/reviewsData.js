@@ -104,6 +104,14 @@ export const reviewsData = [
     country: "United States",
   },
   {
+    title: "Very helpful app",
+    text: "Great format for learning German. Brushing up on my language skills for business trip next month",
+    username: "Donkey259",
+    date: "Dec 1, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
     title: "Great for learning",
     text: "Been using this app for 2 days and my German has improved. I love the der, die das flashcards!",
     username: "JonathanRoye",
