@@ -40,6 +40,7 @@ const countryCodeMap = {
   Portugal: "pt",
   Romania: "ro",
   Russia: "ru",
+  Serbia: "rs",
   Singapore: "sg",
   Slovakia: "sk",
   Slovenia: "si",
