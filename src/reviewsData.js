@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Merveilleux!",
+    text: "J’utilise l’application depuis quelques mois et elle est très pratique. Simple et sans artifice, elle présente les éléments essentiels pour permettre un apprentissage efficace de la langue. Merci beaucoup pour cette application!",
+    username: "Michka2811",
+    date: "Dec 15, 2025",
+    rating: 5,
+    country: "Canada",
+  },
+  {
+    title: "Ottima per il ripasso",
+    text: "App ben fatta. Contiene flashcard semplici utili per migliorare e studiare il tedesco. Imparo nuovi vocaboli ogni giorno, consigliata!",
+    username: "Ampe96",
+    date: "Dec 13, 2025",
+    rating: 5,
+    country: "Italy",
+  },
+  {
     title: "Loved it!",
     text: "This app is really helpful for learning german. I have been using this for a while and completed most of the lessons. It’s fun and interactive and easy to understand german. Recommending it.",
     username: "sofia980",
