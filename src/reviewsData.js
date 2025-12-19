@@ -1,5 +1,16 @@
 export const reviewsData = [
   {
+    title: "Great app for a beginner",
+    date: "Dec 16, 2025",
+    username: "Davvvvvvid00",
+    content:
+      "To surprise my German boyfriend, i found this app. It has a very comprehensive collection of German grammar and vocabulary, including a dictionary and lessons, covering all the needs of a beginner. Now i can study German anytime.",
+    reply: "",
+    report: "Report a Concern",
+    version: "1.3.1",
+    country: "United States",
+  },
+  {
     title: "Merveilleux!",
     text: "J’utilise l’application depuis quelques mois et elle est très pratique. Simple et sans artifice, elle présente les éléments essentiels pour permettre un apprentissage efficace de la langue. Merci beaucoup pour cette application!",
     username: "Michka2811",
