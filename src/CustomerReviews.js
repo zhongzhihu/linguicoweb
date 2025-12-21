@@ -171,7 +171,9 @@ const CustomerReviews = ({ customRating }) => {
                 />
               ))}
             </div>
-            <span className="review-count">{reviewsData.length + 60} Ratings</span>
+            <span className="review-count">
+              {reviewsData.length + 60} Ratings
+            </span>
           </div>
         </div>
       </div>
