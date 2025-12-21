@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "Learning Something New",
+    text: "This really helps me learn a new language and makes learning something new",
+    username: "rohankewal",
+    date: "Dec 19, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Harika",
+    text: "Almanca öğrenmek isteyenler için kullanımı çok kolay ve rahat tavsiye ederim",
+    username: "Sincap77",
+    date: "Dec 18, 2025",
+    rating: 5,
+    country: "Türkiye",
+  },
+  {
     title: "Great app for a beginner",
     text: "To surprise my German boyfriend, i found this app. It has a very comprehensive collection of German grammar and vocabulary, including a dictionary and lessons, covering all the needs of a beginner. Now i can study German anytime.",
     username: "Davvvvvvid00",
