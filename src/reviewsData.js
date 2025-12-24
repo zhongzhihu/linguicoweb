@@ -1,5 +1,22 @@
 export const reviewsData = [
   {
+    title: "güzel",
+    text: "çok beğendim",
+    username: "furkancingozz16",
+    date: "Dec 22, 2025",
+    rating: 5,
+    country: "Türkiye",
+    version: "1.3.1",
+  },
+  {
+    title: "La migliore app per imparare il tedesco",
+    text: "Un compagno di classe mi ha consigliato questa app perché è davvero molto efficace per apprendere il vocabolario e la grammatica tedeschi.",
+    username: "BrosprosJ",
+    date: "Dec 21, 2025",
+    rating: 5,
+    country: "Italy",
+  },
+  {
     title: "Great app",
     text: "I wanted to learn german and this was the perfect app for that!",
     username: "Connoryyyy",
