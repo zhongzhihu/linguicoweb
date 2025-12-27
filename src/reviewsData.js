@@ -1,5 +1,29 @@
 export const reviewsData = [
   {
+    title: "great app for learning German vocabulary",
+    text: "user-friendly designs and very easy-to-use",
+    username: "iperkk",
+    date: "Dec 25, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Simple and effective",
+    text: "I’ve been using this app for couple of days to learn German and I really like it. It’s clean, easy to use, and I’ve already learned a few new words. Great app for beginners.",
+    username: "arahmancsd",
+    date: "Dec 24, 2025",
+    rating: 5,
+    country: "United Kingdom",
+  },
+  {
+    title: "Extremely helpful!",
+    text: "This app does exactly what it says it’s going to do and does it well! If you are trying to learn German this app helps you learn in a very efficient way.",
+    username: "GregorieSz",
+    date: "Dec 24, 2025",
+    rating: 5,
+    country: "United States",
+  },
+  {
     title: "güzel",
     text: "çok beğendim",
     username: "furkancingozz16",
