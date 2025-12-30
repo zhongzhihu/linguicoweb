@@ -1,5 +1,13 @@
 export const reviewsData = [
   {
+    title: "Really works!",
+    text: "This really helped me learn the language. Really great app!",
+    username: "Kever5657",
+    date: "Dec 28, 2025",
+    rating: 5,
+    country: "Ireland",
+  },
+  {
     title: "great app for learning German vocabulary",
     text: "user-friendly designs and very easy-to-use",
     username: "iperkk",
