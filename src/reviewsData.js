@@ -1,19 +1,19 @@
 export const reviewsData = [
   {
-    title: "Super Useful!!!",
-    text: "Love the concept , it does help to learn and translate. thanks 🙏🏻",
-    username: "Naman Vaishanv",
-    date: "Jan 2, 2026",
-    rating: 5,
-    country: "India",
-  },
-  {
     title: "Excellent Tool for Learning German Vocabulary",
     text: "Great German flashcard app! Easy to use, well organized, and perfect for quick daily practice. The spaced repetition helps vocabulary stick, and the examples make learning clear and effective. Highly recommended for German learners!",
     username: "Bene.pkt",
     date: "Jan 3, 2026",
     rating: 5,
     country: "Germany",
+  },
+  {
+    title: "Super Useful!!!",
+    text: "Love the concept , it does help to learn and translate. thanks 🙏🏻",
+    username: "Naman Vaishanv",
+    date: "Jan 2, 2026",
+    rating: 5,
+    country: "India",
   },
   {
     title: "Really works!",
