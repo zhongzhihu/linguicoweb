@@ -1,5 +1,21 @@
 export const reviewsData = [
   {
+    title: "I use it daily",
+    text: "Awesome app to keep on top of my German practice. I use it everyday. It’s simple and easy to use",
+    username: "pwr8",
+    date: "Jan 5, 2026",
+    rating: 5,
+    country: "United States",
+  },
+  {
+    title: "Amazing app!",
+    text: "Really love this app!! It has help me improved my German language within a few weeks. Danke!!!",
+    username: "Anniemoon96",
+    date: "Jan 5, 2026",
+    rating: 5,
+    country: "Canada",
+  },
+  {
     title: "Excellent Tool for Learning German Vocabulary",
     text: "Great German flashcard app! Easy to use, well organized, and perfect for quick daily practice. The spaced repetition helps vocabulary stick, and the examples make learning clear and effective. Highly recommended for German learners!",
     username: "Bene.pkt",
